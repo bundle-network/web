@@ -82,8 +82,9 @@
 }
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label {
-  margin-left: 0;
-  margin-right: 180px;
+  margin-left: -100px;
+  margin-right: 160px;
+  text-align: right;
 }
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-label:after {
@@ -173,7 +174,8 @@
   position: relative;
   background: #f5f5f6;
   padding: 1.7em;
-  margin-left: 120px;
+  margin-left: 110px;
+  margin-right: -40px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
   background-clip: padding-box;
