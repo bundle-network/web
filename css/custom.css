@@ -8,3 +8,11 @@
 #primary-menu-trigger {
   left: -20px;
 }
+
+.faq-list li {
+  margin: 5px 10px;
+}
+
+.togglec {
+  text-align: justify;
+}
