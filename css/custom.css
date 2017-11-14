@@ -5,6 +5,6 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
-
-
-
+#primary-menu-trigger {
+  left: -20px;
+}
