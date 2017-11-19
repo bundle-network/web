@@ -10,7 +10,7 @@ window.onload = function() {
         gutterBottom: 0,
         linewidth: 0,
         strokestyle: 'rgba(0,0,0,0)',
-        labelsIngraph: true,
+        labelsIngraph: false,
         labelsIngraphBounding: false,
         labelsIngraphColor: '#fff',
         labelsIngraphSize: 20,
@@ -23,14 +23,14 @@ window.onload = function() {
         shadowOffsety: 5,
         shadowColor: '#aaa',
         exploded: [10, 10, 10, 10],
-        variantThreedDepth: 30,
+        variantThreedDepth: 15,
         textAccessible: false
       }
     }).draw();
   }
 
-  var pie1 = createChart('chart-doughnut-token-sale', ['#1abc9c', '#e1e1e1', '#e1e1e1', '#e1e1e1']);
-  var pie2 = createChart('chart-doughnut-marketing', ['#e1e1e1', '#1abc9c', '#e1e1e1', '#e1e1e1']);
-  var pie3 = createChart('chart-doughnut-operational-expenses', ['#e1e1e1', '#e1e1e1', '#1abc9c', '#e1e1e1']);
-  var pie4 = createChart('chart-doughnut-team', ['#e1e1e1', '#e1e1e1', '#e1e1e1', '#1abc9c']);
+  var pie1 = createChart('chart-doughnut-token-sale', ['#57b6b3', '#ed2947', '#f69349', '#951c3c']);
+  var pie2 = createChart('chart-doughnut-marketing', ['#57b6b3', '#ed2947', '#f69349', '#951c3c']);
+  var pie3 = createChart('chart-doughnut-operational-expenses', ['#57b6b3', '#ed2947', '#f69349', '#951c3c']);
+  var pie4 = createChart('chart-doughnut-team', ['#57b6b3', '#ed2947', '#f69349', '#951c3c']);
 };
