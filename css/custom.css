@@ -16,3 +16,15 @@
 .togglec {
   text-align: justify;
 }
+
+#header.full-header #primary-menu > ul {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: 0;
+}
+
+.RGraph_tooltip {
+  font-size: 16pt !important;
+  font-weight: bold;
+  text-align: center;
+}
