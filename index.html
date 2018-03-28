@@ -1,1487 +1,2066 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-
+<html lang="zxx" class="js">
 <head>
+	<meta charset="utf-8">
+	<meta name="author" content="Softnio">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Bundle Network is an online platform connected to various exchanges, enabling users to purchase and sell multiple coins & tokens.">
+	<!-- Fav Icon  -->
+	<link rel="shortcut icon" href="bundleassets/favicon.png">
+	<!-- Site Title  -->
+	<title>Bundle Network: Crypto Trading Simplified</title>
+	<!-- Vendor Bundle CSS -->
+	<link rel="stylesheet" href="assets/css/vendor.bundle.css">
+	<!-- Custom styles for this template -->
+	<link rel="stylesheet" href="assets/css/style.css?ver=111">
+	<link rel="stylesheet" href="assets/css/theme.css?ver=111">
+	<link rel="stylesheet" href="bundleassets/css/bundlenetwork.css?ver=111">
+<!-- CSS file -->
+<link type="text/css" rel="stylesheet" href="bundleassets/css/jquery.qtip.min.css" />
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="author" content="Bundle Network Team" />
-
-  <!-- Stylesheets
-	============================================= -->
-  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <link rel="stylesheet" href="css/swiper.css" type="text/css" />
-  <link rel="stylesheet" href="css/dark.css" type="text/css" />
-  <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-  <link rel="stylesheet" href="css/et-line.css" type="text/css">
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/animate.css" type="text/css" />
-  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-  <link rel="stylesheet" href="css/timeline.css" type="text/css" />
-
-  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-  <link rel="stylesheet" href="css/custom.css" type="text/css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <meta property="og:title" content="Bundle Network - Crypto Trading Simplified">
-  <meta property="og:description" content="Bundle Network will enable investors to instantly buy and sell hundreds of different tokens being traded at dozens of different platforms via one account and one click by bundling them together with the best price possible">
-  <meta property="og:image" content="http://bundle.network/images/bundle-logo.png">
-
-  <!-- Document Title
-	============================================= -->
-  <title>Bundle Network - Crypto Trading Simplified</title>
 </head>
 
-<body class="stretched">
+<body class="theme-light is-smooth-effect" data-spy="scroll" data-target="#mainnav" data-offset="80">
+<!-- jQuery FIRST i.e. before qTip (and all other scripts too usually) -->
+<script type="text/javascript" src="bundleassets/js/jquery-3.3.1.min.js"></script>
 
-  <!-- Document Wrapper
-	============================================= -->
-  <div id="wrapper" class="clearfix">
+<!-- Include either the minifed or production version, NOT both!! -->
+<script type="text/javascript" src="bundleassets/js/jquery.qtip.min.js"></script>
 
-    <div id="top-bar">
+<!-- Optional: imagesLoaded script to better support images inside your tooltips -->
+<script type="text/javascript" src="bundleassets/js/imagesloaded.pkgd.min.js"></script>
 
-			<div class="container clearfix">
+<script>
+$( document ).ready(function() {
 
-				<div class="col_half nobottommargin">
+$('.nav-tabs a[href="#tabtokensale"]').tab('show')
 
-					<!-- Top Links
-					============================================= -->
-					<div class="top-links one-page-menu">
-						<ul class="sf-js-enabled clearfix">
-							<li><a href="/">Home</a></li>
-							<li><a href="#" data-href="#section-faq">FAQs</a></li>
-              <li><a href="#" data-href="#section-events-press">Events</a></li>
-              <li><a href="#" data-href="#section-timeline">Timeline</a></li>
-						</ul>
-					</div><!-- .top-links end -->
+$('im1').qtip({ // Grab some elements to apply the tooltip to
+    content: {
+        text: 'My common piece of text here'
+    }
+});
+});
 
+</script>
+
+	<!-- Header -->
+	<header class="site-header is-sticky">
+
+		<!-- Place Particle Js -->
+		<div id="particles-js" class="particles-container particles-js"></div>
+
+		<!-- Navbar -->
+		<div class="navbar navbar-expand-lg is-transparent" id="mainnav">
+			<nav class="container">
+				<a class="navbar-brand animated" data-animate="fadeInDown" data-delay=".65" href="./">
+					<img class="logo logo-dark" alt="logo" src="bundleassets/bundle-logo-300.png" srcset="bundleassets/bundle-logo-300.png">
+					<img class="logo logo-light" alt="logo" src="bundleassets/bundle-logo-300.png" srcset="bundleassets/bundle-logo-300.png">
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle">
+					<span class="navbar-toggler-icon">
+						<span class="ti ti-align-justify"></span>
+					</span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end" id="navbarToggle">
+					<ul class="navbar-nav animated" data-animate="fadeInDown" data-delay=".9">
+						<li class="nav-item"><a class="nav-link menu-link" href="#problems"><span class="sr-only">#</span>The Problem</a></li>
+						<li class="nav-item"><a class="nav-link menu-link" href="#solution">Our Solution</a></li>
+						<li class="nav-item"><a class="nav-link menu-link" href="#video">Video</a></li>
+						<li class="nav-item"><a class="nav-link menu-link" href="#token">Token</a></li>
+						<li class="nav-item"><a class="nav-link menu-link" href="#faq">FAQ</a></li>
+						<li class="nav-item"><a class="nav-link menu-link" href="#team">Team</a></li>
+						<li class="nav-item"><a class="nav-link menu-link" href="#events">Events</a></li>
+						<li class="nav-item"><a class="nav-link menu-link" href="#roadmap">Timeline</a></li>
+					</ul>
+					<ul class="navbar-nav navbar-btns animated" data-animate="fadeInDown" data-delay="1.15">
+						<li class="nav-item"><a class="nav-link btn btn-sm btn-outline menu-link" href="bundleassets/pdf/BundleNetwork-WhitePaper-v1.5.pdf">Whitepaper</a></li>
+					</ul>
 				</div>
+			</nav>
+		</div>
+		<!-- End Navbar -->
 
-				<div class="col_half fright col_last nobottommargin">
+		<!-- Banner/Slider -->
+		<div id="header" class="banner banner-full d-flex align-items-center">
+			<div class="container">
+				<div class="banner-content">
+					<div class="row align-items-center mobile-center">
+						<div class="col-lg-6 col-md-12 order-lg-first">
+							<div class="header-txt">
+								<h1 class="animated" data-animate="fadeInUp" data-delay="1.55">Crypto Trading <br class="d-none d-xl-block"> Simplified</h1>
+								<p class="lead animated" data-animate="fadeInUp" data-delay="1.65">The platform to connect you to leading exchanges at once.<br class="d-none d-xl-block">  Single account. Single click.</p>
+								<ul class="btns animated" data-animate="fadeInUp" data-delay="1.75">
+									<!--<li><a href="#" class="btn">Sign up to Join</a></li>-->
+									<li><a href="#token" class="btn btn-alt">TOKEN DISTRIBUTION</a></li>
+								</ul>
+							</div>
+						</div><!-- .col  -->
+						<div class="col-lg-6 col-md-12 order-first res-m-bttm-lg">
+							<div class="header-image-alt animated" data-animate="fadeInRight" data-delay="1.25">
+								<img src="bundleassets/bundle-sema.png" alt="header">
+							</div>
+						</div><!-- .col  -->
+					</div><!-- .row  -->
+				</div><!-- .banner-content  -->
+			</div><!-- .container  -->
+		</div>
+		<!-- End Banner/Slider -->
+		<!-- added extra -->
+				<div class="header-partners">
+					<div class="container">
+						<div class="row align-items-center">
+							<ul class="partner-list-s2 d-flex flex-wrap align-items-center">
+								<li class="animated" data-animate="fadeInUp" data-delay="1.85">Our <br> Partners</li>
+								<li class="animated" data-animate="fadeInUp" data-delay="1.9"><a href="https://www.coinsilium.com/" target="_out"><img src="bundleassets/partners/coinsilium.png" alt="Coinsilium"></a></li>
+								<li class="animated" data-animate="fadeInUp" data-delay="1.95"><a href="https://ellulschranz.com/" target="_out"><img src="bundleassets/partners/es-group.png" alt="E&S Group"></a></li>
+								<li class="animated" data-animate="fadeInUp" data-delay="2"><a href="http://www.krowdmentor.com/" target="_out"><img src="bundleassets/partners/krowd-mentor.png" alt="Krowd Mentor"></a></li>
+								<li class="animated" data-animate="fadeInUp" data-delay="2.05"><a href="http://www.pst-legalconsulting.ch/" target="_out"><img src="bundleassets/partners/pst.png" alt="PST legal & consulting"></a></li>
+								<li class="animated" data-animate="fadeInUp" data-delay="2.1"><a href="https://startuptoken.com/" target="_out"><img src="bundleassets/partners/startup-token.png" alt="Startup Token"></a></li>
+								<li class="animated" data-animate="fadeInUp" data-delay="2.15"><a href="https://vestia.com/" target="_out"><img src="bundleassets/partners/vestia.png" alt="Vestia"></a></li>
+								<li class="animated" data-animate="fadeInUp" data-delay="2.2"><a href="hhttps://cryptovalley.swiss/" target="_out"><img src="bundleassets/partners/crypto-valley.png" alt="Crypto Valley"></a></li>
+							</ul>
+						</div><!-- .row  -->
+					</div><!-- .container  -->
+				</div><!-- .header-partners  -->
+		<a href="#intro" class="scroll-down menu-link">SCROLL DOWN</a>
+		<!-- added extra -->
+	</header>
+	<!-- End Header -->
 
-					<!-- Top Social
-					============================================= -->
-					<div id="top-social">
-						<ul>
-							<li><a href="https://www.facebook.com/bundlenetwork/" target="_blank" class="si-facebook" data-hover-width="109" style="width: 40px;"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-							<li><a href="https://twitter.com/bundleofficial" class="si-twitter" target="_blank" data-hover-width="95" style="width: 40px;"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
-              <li><a href="https://www.linkedin.com/company/18239884/" class="si-linkedin" target="_blank" data-hover-width="95" style="width: 40px;"><span class="ts-icon"><i class="icon-linkedin"></i></span><span class="ts-text">Linkedin</span></a></li>
-              <li><a href="https://www.youtube.com/channel/UCIByKOxR5cxBTuD99mYenWA/about" class="si-youtube" target="_blank" data-hover-width="103" style="width: 40px;"><span class="ts-icon"><i class="icon-youtube"></i></span><span class="ts-text">Youtube</span></a></li>
-              <li><a href="https://www.reddit.com/r/AskReddit/comments/7cgrz9/bundlenetwork/" class="si-reddit" target="_blank" data-hover-width="95" style="width: 40px;"><span class="ts-icon"><i class="icon-reddit"></i></span><span class="ts-text">Reddit</span></a></li>
-              <li><a href="https://t.me/bundlenetworkcommunity" class="si-telegram" target="_blank" data-hover-width="95" style="width: 40px;"><span class="ts-icon"><i class="fa fa-telegram"></i></span><span class="ts-text">Telegram</span></a></li>
-							<li><a href="https://github.com/bundle-network" class="si-github" target="_blank" data-hover-width="92" style="width: 40px;"><span class="ts-icon"><i class="icon-github-circled"></i></span><span class="ts-text">Github</span></a></li>
-							<li><a href="mailto:info@bundle.network" class="si-email3" data-hover-width="153" style="width: 40px;"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">info@bundle.network</span></a></li>
-						</ul>
-					</div><!-- #top-social end -->
 
-				</div>
-
+	<!-- Start Section -->
+	<div class="section section-pad section-bg-alt nopb" id="problems">
+		<div class="container">
+			<div class="row align-items-center" >
+				<div class="text-block">
+				<h2 class="animated" data-animate="fadeInUp" data-delay="0">So, you would like to trade crypto currencies?</h2>
+				<p class="lead animated" data-animate="fadeInUp" data-delay=".1">Just as the number of coins and
+tokens has increased exponentially to well over
+a thousand, the number and variety of exchange
+platforms has skyrocketed to over 100. That’s
+why only 10% of the coins traded on the market
+are available even on the largest, most well-known
+platforms. .</p><p>&nbsp;</p>
 			</div>
+
+			<div class="row">
+
+			<div class="card-deck">
+														<div class="card">
+														  <img class="card-img-top" src="bundleassets/icon-availability.png" alt="Card image cap">
+														  <div class="card-body">
+															<h5 class="card-title">Availability</h5>
+															<p class="card-text">The market already has more than +1,000 coins/tokens and +100 exchanges. This fragmentation makes it impossible to find every token at every exchange platform.</p>
+
+														  </div>
+														  <!--<div class="card-footer"><a href="#" class="btn btn-primary">Go somewhere</a></div>-->
+														</div>
+
+											<div class="card">
+											  <img class="card-img-top" src="bundleassets/icon-liquidity.png" alt="Card image cap">
+											  <div class="card-body">
+												<h5 class="card-title">Liquidity</h5>
+												<p class="card-text">Due to the availability problem, tokens get very limited demand and supply. Which leads to very low figures of daily trade.</p>
+											  </div>
+											  <!--<div class="card-footer"><a href="#" class="btn btn-primary">Go somewhere</a></div>-->
+											</div>
+
+												<div class="card" >
+												  <img class="card-img-top" src="bundleassets/icon-arbitrage.png" alt="Card image cap">
+												  <div class="card-body">
+													<h5 class="card-title">Arbitrage</h5>
+													<p class="card-text">Due to liquidity problem, we see huge price differences between exchanges. Even for the same token, there are huge arbitrage differences which leads to an inefficient market. </p>
+												  </div>
+												  <!--<div class="card-footer"><a href="#" class="btn btn-primary">Go somewhere</a></div>-->
+											</div>
+
+												<div class="card">
+												  <img class="card-img-top" src="bundleassets/icon-price-fluctuations.png" alt="Card image cap">
+												  <div class="card-body">
+													<h5 class="card-title">Price Fluctuations</h5>
+													<p class="card-text">Due to low trading volume, prices can go up / down 20 % - 30 % in a day. Which creates an image of immature market for newcomers. </p>
+												  </div>
+												  <!--<div class="card-footer"><a href="#" class="btn btn-primary">Go somewhere</a></div>-->
+											</div>
+
+			</div><!-- end card deck -->
+
+</div><!-- end row -->
+
+
+
+
+		</div><!-- .conatiner  -->
+	</div>
+	<!-- Start Section -->
+
+
+	<!-- Start Section -->
+	<div class="section section-pad section-bg-alt nopb" id="solution">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-5 offset-md-1">
+					<div class="res-m-btm animated" data-animate="fadeInUp" data-delay=".1">
+						<img src="bundleassets/bundle-names.png" alt="graph" usemap="#image-map">
+
+						<map name="image-map">
+						    <area id="im1"  coords="203,57,491,259" shape="rect" title="Buy crypto currencies with the best price available on all partner exchange platforms.">
+						    <area id="im2" coords="639,55,900,262" shape="rect" title="Create your own channel, gather your members. Earn more yourself and make people earn more">
+						    <area id="im3" coords="822,386,1095,609" shape="rect" title="Access to the vast majority of the tokens in the market with only one account.">
+						    <area id="im4" coords="620,749,912,940" shape="rect" title="See the best traders, sign up to their channels and earn just as .">
+						    <area id="im5" coords="201,764,477,931" shape="rect" title="Discover the easiest, fastest and most profitable way of trading crypto.">
+						    <area id="im6" coords="14,420,292,589" shape="rect" title="Buy dozens of cryptocurrencies via pre arranged bundles with one click or create your own bundle.">
+						</map>
+
+					</div>
+				</div><!-- .col  -->
+				<div class="col-md-6 order-md-first order-last">
+					<div class="text-block">
+						<h2 class="animated" data-animate="fadeInUp" data-delay="0">What Does <br> Bundle Network Offer?</h2>
+						<p class="lead animated" data-animate="fadeInUp" data-delay=".1">The Bundle Network is an online platform connected to multiple cryptocurrency
+exchanges. </p><p>Through one single account, users can purchase and sell multiple coins & tokens within seconds, at the best price possible. </p><p>Bundle Network will also serve as an online meeting place for cryptocurrency traders and enthusiasts to share and discuss topics related to digital
+asset trading.</p><p>Bundle Network aims to provide support for the burgeoning and ever-changing world of digital assets, easing the transaction process to trade quickly, safely, and efficiently.</p>
+
+						</a>
+					</div>
+				</div><!-- .col  -->
+			</div><!-- .row  -->
+		</div><!-- .conatiner  -->
+	</div>
+	<!-- Start Section -->
+
+	<!-- Start Section -->
+	<div class="section section-pad section-bg-alt nopb" id="video">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-5 offset-md-1">
+					<div class="res-m-btm animated" data-animate="fadeInUp" data-delay=".1">
+						<img src="bundleassets/video-ss.png" alt="graph">
+					</div>
+				</div><!-- .col  -->
+				<div class="col-md-6 order-md-first order-last">
+					<div class="text-block">
+						<h2 class="animated" data-animate="fadeInUp" data-delay="0">A Glimpse of the Future</h2>
+						<p class="lead animated" data-animate="fadeInUp" data-delay=".1">Our IT Team already developed a working demo of the platform, which can perform live transactions.</p><p>The demo was premiered at d10e Gibraltar event on the 1st of November.</p>
+						<a href="https://www.youtube.com/watch?time_continue=1&v=ofpO-4fnC9s" class="play-btn video-play animated" data-animate="fadeInUp" data-delay=".2">
+							<em class="play"><span></span></em>
+							<span>Watch Video</span>
+							<!--<span>What and How it work</span>-->
+						</a>
+					</div>
+				</div><!-- .col  -->
+			</div><!-- .row  -->
+		</div><!-- .conatiner  -->
+	</div>
+	<!-- Start Section -->
+
+
+	<!-- Start Section -->
+	<div class="section section-pad section-bg-alt nopb" id="token">
+		<div class="container">
+
+			<div class="row text-center">
+				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<div class="section-head">
+						<h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">TOKEN SALE
+							<span>TOKEN</span>
+						</h2>
+						<p class="animated" data-animate="fadeInUp" data-delay=".1"><strong>The Total Token Supply is Fixed at 1 Billion BND.</strong></p><!--<p>Complete List of Token Sharing</p>-->
+					</div>
+				</div>
+			</div>
+
+
+  <div class="row align-items-top">
+  				<div class="col-lg-8">
+
+
+						<ul class="nav nav-tabs" role="tablist">
+						  <li class="nav-item active">
+							<a class="nav-link" href="#tabtokensale" role="tab" data-toggle="tab">Token Sale</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#tabmarketing" role="tab" data-toggle="tab">Marketing</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#taboperationalexpenses" role="tab" data-toggle="tab">Operational Expenses</a>
+						  </li>
+							<li class="nav-item">
+							  <a class="nav-link" href="#tabteam" role="tab" data-toggle="tab">Co-founders</a>
+						  </li>
+						</ul>
+
+						<!-- Tab panes -->
+						<div class="tab-content">
+						  <div role="tabpanel" class="tab-pane fade in active tabmarketing" id="tabtokensale">
+							<h5>BND is built as an EIP-23 (former ERC-23) token on the Ethereum blockchain.</h5>
+							<div class="table-responsive">
+							  <table class="table table-striped withborder">
+								<tr><td class="w-50"><strong>Token Type</strong></td><td class="w-50">Utility Token</td></tr>
+								<tr><td class="w-50"><strong>Number of BND Tokens</strong></td><td class="w-50">500 Million</td></tr>
+								<tr><td class="w-50"><strong>Min Cap</strong></td><td class="w-50">1,000 ETH</td></tr>
+								<tr><td class="w-50"><strong>Hard Cap (Max limit)</strong></td><td class="w-50">20,000 ETH</td></tr>
+							  </table>
+							</div>
+
+							<p>After token sale, all the unsold tokens will be burned.</p>
+
+						  </div><!-- end panel 1-->
+						  <div role="tabpanel" class="tab-pane fade tabmarketing" id="tabmarketing">
+						  <h5>BND Allocated: <strong>120 Million</strong></h5>
+						  <p class="lead"><strong>Purpose :</strong><br>
+						Marketing Incentives, Partnerships, ICO Campaign Costs, Bounty Campaigns</p>
+						  <ul class="list-group alternatecolors">
+						  		<li class="list-group-item">Marketing Incentives 12%</li>
+			                      <li class="list-group-item">4% Released at TGE</li>
+						 		 <li class="list-group-item">2% Locked 4 months </li>
+						  			<li class="list-group-item">2% Locked 8 months </li>
+						  			<li class="list-group-item">2%  Locked 12 months </li>
+						  			<li class="list-group-item">2%  Locked 18 months </li>
+						  			</ul>
+
+						  </div><!-- end panel 2 -->
+						  <div role="tabpanel" class="tab-pane fade tabmarketing" id="taboperationalexpenses">
+						  <h5>BND Allocated: <strong>170 Million</strong></h5>
+						  <p class="lead"><strong>Purpose :</strong><br>
+						Development, Server, Security, Legal, Consulting</p>
+
+												  <ul class="list-group alternatecolors">
+									                      <li class="list-group-item">Operational Expenses 17%</li>
+									                      <li class="list-group-item">5% Released at TGE</li>
+												 		 <li class="list-group-item">3% Locked 4 months </li>
+												 		 <li class="list-group-item">3% Locked 8 months </li>
+												  			<li class="list-group-item">3% Locked 12 months </li>
+												  			<li class="list-group-item">3% Locked 18 months </li>
+						  			</ul>
+						  </div><!-- end panel 3 -->
+						  <div role="tabpanel" class="tab-pane fade tabmarketing" id="tabteam">
+						  						  <h5>BND Allocated: <strong>200 Million</strong></h5>
+						  						  <p class="lead"><strong>Purpose :</strong><br>
+						  						Founders, Team members, Advisors</p>
+
+						  												  <ul class="list-group alternatecolors" >
+						  									                      <li class="list-group-item">Co-founders: 20%</li>
+						  												 		 <li class="list-group-item">5% Locked 6 months </li>
+						  												  			<li class="list-group-item">5% Locked 12 months </li>
+						  												  			<li class="list-group-item">5% Locked 18 months </li>
+						  												  			<li class="list-group-item">5% Locked 24 months </li>
+						  			</ul>
+						  </div>
+						</div>
+
+ 		 </div><!-- .col  -->
+ 		 <div class="col-lg-4 chartimg">
+ 		 	<img src="bundleassets/chart_1.png">
+ 		 	                    <ul class="list-group text-left">
+			                      <li class="list-group-item"><span class="fa fa-circle" style="color:#57b6b3;"></span> 51% &nbsp; Token Sale</li>
+			                      <li class="list-group-item"><span class="fa fa-circle" style="color:#ed2947;"></span> 12% &nbsp; Marketing</li>
+			                      <li class="list-group-item"><span class="fa fa-circle" style="color:#f69349;"></span> 17% &nbsp; Operational Expenses</li>
+			                      <li class="list-group-item"><span class="fa fa-circle" style="color:#c18c00;"></span> 20% &nbsp; Co-founders</li>
+                    			</ul>
+ 		 </div><!-- .col  -->
+  </div><!-- .row  -->
+
+		</div><!-- .container  -->
+	</div>
+	<!-- Start Section -->
+
+
+	<!-- Start Section -->
+	<div class="section section-pad section-bg-alt nopb" id="tokenSale">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-lg-6 offset-lg-3">
+					<div class="section-head-s2">
+						<h6 class="heading-xs animated" data-animate="fadeInUp" data-delay=".0">Tokens</h6>
+						<h2 class="section-title animated" data-animate="fadeInUp" data-delay=".1">TGE</h2>
+						<!--<p class="animated" data-animate="fadeInUp" data-delay=".2">ICO Crypto token will be released on the basis of Ethereum and Bitocin platform. It’s compatibility of the token with third-party services wallets, exchanges etc, and provides easy-to-use integration.</p>-->
+					</div>
+				</div><!-- .col  -->
+			</div><!-- .row  -->
+			<!--<div class="row align-items-center">-->
+			<div class="row align-text-top">
+				<div class="col-lg-7">
+					<div class="row event-info">
+						<div class="col-sm-6">
+							<div class="event-single-info animated" data-animate="fadeInUp" data-delay="0">
+								<h6>Start</h6>
+								<p>June 1, 2018 (9:00AM GMT)</p>
+							</div>
+						</div><!-- .col  -->
+						<div class="col-sm-6">
+							<div class="event-single-info animated" data-animate="fadeInUp" data-delay=".1">
+								<h6>Number of tokens for sale</h6>
+								<p>500,000,000 BND</p>
+							</div>
+						</div><!-- .col  -->
+						<div class="col-sm-6">
+							<div class="event-single-info animated" data-animate="fadeInUp" data-delay=".2">
+								<h6>End</h6>
+								<p>Jun 30, 2018 (11:00AM GMT)</p>
+							</div>
+						</div><!-- .col  -->
+						<div class="col-sm-6">
+							<div class="event-single-info animated" data-animate="fadeInUp" data-delay=".3">
+								<h6>Tokens exchange rate</h6>
+								<p>1 ETH = 7,500 BND</p>
+							</div>
+						</div><!-- .col  -->
+						<div class="col-sm-6">
+							<div class="event-single-info animated" data-animate="fadeInUp" data-delay=".4">
+								<h6>Acceptable currencies</h6>
+								<p>ETH</p>
+							</div>
+						</div><!-- .col  -->
+						<div class="col-sm-6">
+							<div class="event-single-info animated" data-animate="fadeInUp" data-delay=".5">
+								<h6>Minimal transaction amount</h6>
+								<p>0.1 ETH</p>
+							</div>
+						</div><!-- .col  -->
+					 <div class="col-sm-6">
+							<div class="event-single-info animated" data-animate="fadeInUp" data-delay=".5">
+								<h6>Hard Cap</h6>
+								<p>20,000 ETH</p>
+							</div>
+						</div><!-- .col  -->
+															 <div class="col-sm-6">
+																	<div class="event-single-info animated" data-animate="fadeInUp" data-delay=".5">
+																		<h6>Bonus Rates</h6>
+																		<p>
+																										<div class="table-responsive">
+																										  <table class="table table-striped withborder">
+																											<tr><td class="w-50"><strong>>15 ETH</strong></td><td class="w-50">Bonus Rate 25%</td></tr>
+																											<tr><td class="w-50"><strong>>10 ETH</strong></td><td class="w-50">Bonus Rate 15%</td></tr>
+																											<tr><td class="w-50"><strong>>5 ETH</strong></td><td class="w-50">Bonus Rate 5%</td></tr>
+																											<tr><td class="w-50"><strong>Until The End</strong></td><td class="w-50">Bonus Rate 0%</td></tr>
+																										  </table>
+																	</div>
+																		</p>
+																	</div>
+						</div><!-- .col  -->
+					</div><!-- .row  -->
+				</div><!-- .col  -->
+				<div class="col-lg-5">
+					<div class="countdown-box text-center animated" data-animate="fadeInUp" data-delay=".3">
+						<h6>ICO will start in</h6>
+						<div class="token-countdown d-flex align-content-stretch" data-date="2018/06/01"></div>
+						<!--<a href="#" class="btn btn-alt btn-sm">Join &amp; BUY TOKEN NOW</a>-->
+					</div>
+				</div><!-- .col  -->
+			</div><!-- .row  -->
+
+			<div class="gaps size-3x"></div><div class="gaps size-3x d-none d-md-block"></div><!-- .gaps  -->
+
+			<div class="row text-center">
+				<div class="col-md-6">
+					<div class="single-chart light res-m-btm">
+						<h3 class="sub-heading">Initial Token Distribution</h3>
+						<div class="animated" data-animate="fadeInUp" data-delay=".0">
+							<img src="bundleassets/chart_2b.png" alt="Initial Token Distribution">
+						</div>
+					</div>
+				</div><!-- .col  -->
+
+				<div class="col-md-6">
+					<div class="single-chart light">
+						<h3 class="sub-heading">Use of Funds</h3>
+						<div class="animated" data-animate="fadeInUp" data-delay=".1">
+							<img src="bundleassets/chart_3b.png" alt="Use of Funds">
+						</div>
+					</div>
+				</div><!-- .col  -->
+
+			</div><!-- .row  -->
+
+		</div><!-- .container  -->
+	</div>
+	<!-- Start Section -->
+
+
+
+
+
+	<!-- Start Section -->
+	<div class="section section-pad no-pb section-bg-alt" id="faq">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<div class="section-head">
+						<h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">Frequently asked questions
+							<span>FAQS</span>
+						</h2>
+						<p class="animated" data-animate="fadeInUp" data-delay=".1">Below we’ve provided a bit of Bundle Network, ICO, ICO Token, cryptocurrencies, and few others. If you have any other questions, please get in touch using the contact form below.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<div class="tab-custom">
+						<div class="tab-content animated" data-animate="fadeInUp" data-delay=".1">
+							<div class="tab-pane fade show active" id="tab-1">
+								<div class="accordion" id="accordion-1">
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a data-toggle="collapse" data-target="#collapse-1-1">
+													What is Bundle Network?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-1-1" class="collapse show" data-parent="#accordion-1">
+											<div class="card-body">
+												<p>Bundle Network is an online platform connected to various exchanges, enabling users to purchase and sell multiple coins & tokens within seconds of execution through one account and one click, at the best price possible either in bundles, or individually. It will also serve as an online meeting point for cryptocurrency investors to share and discuss topics related to the trading cryptocurrencies.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-1-2">
+												  What is bundle token?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-1-2" class="collapse" data-parent="#accordion-1">
+											<div class="card-body">
+												<p>Bundle Token will be used at our platform for two different functionalities. It will neither represent the shares of Bundle Network LLC nor it gives any kind of voting rights for the holders.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-1-3">
+												  What are the functionalities of the token?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-1-3" class="collapse" data-parent="#accordion-1">
+											<div class="card-body">
+
+												 <ol class="list-ordered faq-list">
+												                    <li><b>Lower Commission Rates: Users performing transactions in the Bundle Platform pay lower fees.</b>
+												                      <ul class="">
+												                        <li>The fee is 0.5% for standard transaction paid with Bitcoin or Ethereum .</li>
+												                        <li>The fee is 0.2% for standard transaction paid with the Bundle Token (BND).</li>
+												                      </ul>
+												                    </li>
+												                    <li><b>Determine Transaction Speed &amp; Frequency:</b>
+												                      <ul class="">
+												                        <li><em>Basic User:</em>
+												                          <ul>
+												                            <li>No minimum amount deposited</li>
+												                            <li>10 transactions per day</li>
+												                            <li>5 min waiting time between transactions</li>
+												                          </ul>
+												                        </li>
+												                        <li><em>Pro User:</em>
+												                          <ul>
+												                            <li>1000 BND deposit</li>
+												                            <li>30 transactions per day</li>
+												                            <li>0 waiting time between transactions</li>
+												                          </ul>
+												                        </li>
+												                        <li><em>Master User:</em>
+												                          <ul>
+												                            <li>5000 BND deposit</li>
+												                            <li>Unlimited number of transactions</li>
+												                            <li>0 waiting time between transactions</li>
+												                          </ul>
+												                        </li>
+												                      </ul>
+												                    </li>
+                  										</ol>
+
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-1-4">
+												  What is the core revenue model?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-1-4" class="collapse" data-parent="#accordion-1">
+											<div class="card-body">
+												<ul>
+												                    <li>The daily trading volume for cryptocurrencies is more than 6 billion dollars per day</li>
+												                    <li>Bundle Network aims to have 1% market share at 2018 as the normal case scenerio</li>
+												                    <li>Which will yield a USD 60M of daily trading volume</li>
+												                    <li>Which will yield a USD 300K revenue per day</li>
+												                    <li>Which will yield USD 76M revenue in 2018 (according to platform operational timeline, Q2 onwards)</li>
+												                    <li>The revenue will also increase by the expansion of market itself</li>
+                  </ul>
+											</div>
+										</div>
+									</div>
+
+																		<div class="card">
+																			<div class="card-header">
+																				<h5>
+																					<a class="collapsed" data-toggle="collapse" data-target="#collapse-1-5">
+																					  How does the network function work?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+																					</a>
+																				</h5>
+																			</div>
+																			<div id="collapse-1-5" class="collapse" data-parent="#accordion-1">
+																				<div class="card-body">
+																					<p>A Bundle Manager (who can use the platform in order to create their own bundles) may share their successful Bundles with others, on the platform, thereby creating a communication channel for the cryptocurrency ecosystem. They will be ranked by their successful trading and receive commissions via Bundle Tokens based on the usage of their bundles. As a result, the newcomers would see the best performers and benefit from their knowledge and experience while they are making their future purchases</p>
+																				</div>
+																			</div>
+									</div>
+
+								</div>
+							</div><!-- End tab-pane -->
+							<div class="tab-pane fade" id="tab-2">
+								<div class="accordion" id="accordion-2">
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a data-toggle="collapse" data-target="#collapse-2-1">
+												  Which of us ever undertakes laborious?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-2-1" class="collapse show" data-parent="#accordion-2">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-2-2">
+													Who do not know how to pursue rationally?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-2-2" class="collapse" data-parent="#accordion-2">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-2-4">
+												   Their separate existence is a myth?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-2-4" class="collapse" data-parent="#accordion-2">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-2-3">
+												  Pityful a rethoric question ran over her cheek?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-2-3" class="collapse" data-parent="#accordion-2">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- End tab-pane -->
+							<div class="tab-pane fade" id="tab-3">
+								<div class="accordion" id="accordion-3">
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a data-toggle="collapse" data-target="#collapse-3-1">
+													When she reached the first hills?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-3-1" class="collapse show" data-parent="#accordion-3">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-3-2">
+												  Big Oxmox advised her not to do?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-3-2" class="collapse" data-parent="#accordion-3">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-3-3">
+												  Which roasted parts of sentences fly into your mouth?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-3-3" class="collapse" data-parent="#accordion-3">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-3-4">
+												  Vokalia and Consonantia, there live?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-3-4" class="collapse" data-parent="#accordion-3">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- End tab-pane -->
+							<div class="tab-pane fade" id="tab-4">
+								<div class="accordion" id="accordion-4">
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a data-toggle="collapse" data-target="#collapse-4-1">
+													Who formed us in his own image?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-4-1" class="collapse show" data-parent="#accordion-4">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-4-2">
+												  While the lovely valley teems with vapour?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-4-2" class="collapse" data-parent="#accordion-4">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-4-3">
+												  Which was created for the bliss of souls like mine?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-4-3" class="collapse" data-parent="#accordion-4">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-4-4">
+												  Wonderful serenity has taken of my entire soul?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-4-4" class="collapse" data-parent="#accordion-4">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- End tab-pane -->
+							<div class="tab-pane fade" id="tab-5">
+								<div class="accordion" id="accordion-5">
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a data-toggle="collapse" data-target="#collapse-5-1">
+													Illustrated magazine and housed in a nice?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-5-1" class="collapse show" data-parent="#accordion-5">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-5-2">
+												  Samsa was a travelling salesman and above it there?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-5-2" class="collapse" data-parent="#accordion-5">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-5-3">
+												  Slightly domed and divided by arches?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-5-3" class="collapse" data-parent="#accordion-5">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<div class="card-header">
+											<h5>
+												<a class="collapsed" data-toggle="collapse" data-target="#collapse-5-4">
+												  One morning, when Gregor Samsa?<span class="plus-minus"><span class="ti ti-angle-up"></span></span>
+												</a>
+											</h5>
+										</div>
+										<div id="collapse-5-4" class="collapse" data-parent="#accordion-5">
+											<div class="card-body">
+												<p>ICO Crypto - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital.</p>
+											</div>
+										</div>
+									</div>
+								</div><!-- End accordion -->
+							</div><!-- End tab-pane -->
+						</div><!-- End tab-content -->
+					</div><!-- End tab-custom -->
+				</div><!-- End col -->
+			</div><!-- End row -->
+		</div><!-- End container -->
+	</div>
+	<!-- End Section -->
+
+	<!-- Start Section -->
+	<div class="section section-pad no-pb section-bg-alt section-fix" id="team">
+		<div class="container">
+
+			<div class="row text-center">
+				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<div class="section-head">
+						<h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">Powered by a Team
+							<span>Team</span>
+						</h2>
+						<p class=" animated" data-animate="fadeInUp" data-delay=".1"> The Bundle Network team combines a passion for crypto currencies, industry experise &amp; proven record in finance, development & marketing.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- ******************************** ADVISORS *********************************** -->
+						<div class="row">
+							<div class="col-md-12">
+								<div class="gaps size-2x"></div>
+								<h3 class="sub-heading ucap">Advisors</h3>
+								<div class="gaps size-2x"></div>
+							</div>
+						</div>
+
+						<div class="row ">
+							<div class="col-lg-12 col-md-12">
+								<div class="row">
+								<!-- START ADVISORS CONTENT -->
+
+														<!-- START EDDY -->
+														<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+															<div class="team-member animated" data-animate="fadeInUp" data-delay=".1">
+																<div class="team-photo">
+																	<img src="bundleassets/advisors/eddy-travia.jpg" alt="Eddy Travia">
+																	<a href="#team-profile-10" class="expand-trigger content-popup"></a>
+																</div>
+																<div class="team-info">
+																	<h5 class="team-name">Eddy <br>Travia</h5>
+																	<span class="team-title">Strategic Advisor</span>
+																	<ul class="team-social">
+																<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																<li><a href="https://www.linkedin.com/in/startupeddy/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																	</ul>
+																</div>
+
+																<!-- Start .team-profile  -->
+																<div id="team-profile-10" class="team-profile mfp-hide">
+																	<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																	<div class="container-fluid">
+																		<div class="row no-mg">
+																			<div class="col-md-6">
+																				<div class="team-profile-photo">
+																					<img src="bundleassets/advisors/eddy-travia.jpg" alt="Eddy Travia">
+																				</div>
+																			</div><!-- .col  -->
+
+																			<div class="col-md-6">
+																				<div class="team-profile-info">
+																					<h3 class="name">Eddy Travia</h3>
+																					<p class="sub-title">Strategic Advisor</p>
+																					<ul class="tpi-social">
+																				<li><a href="https://www.linkedin.com/in/startupeddy/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																					</ul>
+																					<p>Eddy Travia is a pioneer investor in blockchain technology startups and the CEO of Coinsilium, a London-based venture builder, accelerator and investor in early-stage blockchain technology companies. Coinsilium shares have been traded on NEX Exchange in London (NEX:COIN) since December 2015. Eddy has led early-stage investments in 18 blockchain companies around the world including RSK, Factom, SatoshiPay and Indorse and has advised blockchain companies which have generated more than $500m in token sales via token generation events. </p>
+																				</div>
+																			</div><!-- .col  -->
+
+																		</div><!-- .row  -->
+																	</div><!-- .container  -->
+																</div><!-- .team-profile  -->
+
+															</div>
+														</div><!-- .col  -->
+														<!-- END  EDDY -->
+
+														<!-- START MIKE -->
+														<!--<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 d-inline-flex justify-content-center">-->
+														<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+															<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+																<div class="team-photo">
+																	<img src="bundleassets/advisors/mike-costache.jpg" alt="Mike Costache">
+																	<a href="#team-profile-12" class="expand-trigger content-popup"></a>
+																</div>
+																<div class="team-info">
+																	<h5 class="team-name">Mike <br>Costache</h5>
+																	<span class="team-title">Strategic Advisor</span>
+																	<ul class="team-social">
+																<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																<li><a href="https://www.linkedin.com/in/mikecostache/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																	</ul>
+																</div>
+
+																<!-- Start .team-profile  -->
+																<div id="team-profile-12" class="team-profile mfp-hide">
+																	<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																	<div class="container-fluid">
+																		<div class="row no-mg">
+																			<div class="col-md-6">
+																				<div class="team-profile-photo">
+																					<img src="bundleassets/advisors/mike-costache.jpg" alt="Mike Costache">
+																				</div>
+																			</div><!-- .col  -->
+
+																			<div class="col-md-6">
+																				<div class="team-profile-info">
+																					<h3 class="name">Mike Costache</h3>
+																					<p class="sub-title">Strategic Advisor</p>
+																					<ul class="tpi-social">
+																				<li><a href="https://www.linkedin.com/in/mikecostache/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																					</ul>
+																					<p>Mike never liked being put in a box so he spent the last 20 years as an entrepreneur, speaker, angel investor and fundraiser for various charities. Mike is a Managing Partner at KrowdMentor, a strategic investment and advisory firm empowering blockchain startups, funds and entrepreneurs to reach their funding and liquidity goals. Mike is also the founder of the Blockchain Investors Consortium (BIC) and serves on the Advisory Board of TaaS, the first ever tokenized closed-end fund dedicated to investments in blockchain assets.</p>
+																				</div>
+																			</div><!-- .col  -->
+
+																		</div><!-- .row  -->
+																	</div><!-- .container  -->
+																</div><!-- .team-profile  -->
+
+															</div>
+														</div><!-- .col  -->
+														<!-- END MIKE -->
+
+<!-- START BRAD -->
+																				<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+																					<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+																						<div class="team-photo">
+																							<img src="bundleassets/advisors/brad-bulent-yasar.jpg" alt="Brad Bulent Yasar">
+																							<a href="#team-profile-13" class="expand-trigger content-popup"></a>
+																						</div>
+																						<div class="team-info">
+																							<h5 class="team-name">Brad Bulent <br>Yasar</h5>
+																							<span class="team-title">Strategic Advisor</span>
+																							<ul class="team-social">
+																						<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																						<li><a href="https://www.linkedin.com/in/bradyasar/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																						<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																							</ul>
+																						</div>
+
+																						<!-- Start .team-profile  -->
+																						<div id="team-profile-13" class="team-profile mfp-hide">
+																							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																							<div class="container-fluid">
+																								<div class="row no-mg">
+																									<div class="col-md-6">
+																										<div class="team-profile-photo">
+																											<img src="bundleassets/advisors/brad-bulent-yasar.jpg" alt="Eddy Travia">
+																										</div>
+																									</div><!-- .col  -->
+
+																									<div class="col-md-6">
+																										<div class="team-profile-info">
+																											<h3 class="name">Brad Bulent Yasar</h3>
+																											<p class="sub-title">Strategic Advisor</p>
+																											<ul class="tpi-social">
+																										<li><a href="https://www.linkedin.com/in/bradyasar/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																											</ul>
+																											<p>Brad Yasar is an entrepreneur, investor, mentor, and advisor who started and bootstrapped several companies from inception to maturity over the past 20 years. Currently, Brad is the co-founder and Managing Partner of KrowdMentor, a strategic crowdfunding advisory firm focusing on TGEs, cryptocurrencies, and token powered organizations. As the co-founder for Blockchain Investors Consortium (BIC) with over $2 Billion dollars allocated to blockchain an cryptocurrency projects and has access to extensive dealflow and experience analyzing disruptive. </p>
+
+																										</div>
+																									</div><!-- .col  -->
+
+																								</div><!-- .row  -->
+																							</div><!-- .container  -->
+																						</div><!-- .team-profile  -->
+
+																					</div>
+														</div><!-- .col  -->
+														<!-- END BRAD -->
+
+														<!-- START GÖKHAN -->
+														<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+															<div class="team-member animated" data-animate="fadeInUp" data-delay=".2">
+																<div class="team-photo">
+																	<img src="bundleassets/advisors/gokhan-ogut.jpg" alt="Gökhan Öğüt">
+																	<a href="#team-profile-11" class="expand-trigger content-popup"></a>
+																</div>
+																<div class="team-info">
+																	<h5 class="team-name">Gökhan <br>Öğüt</h5>
+																	<span class="team-title">Marketing Advisor</span>
+																	<ul class="team-social">
+																<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																<li><a href="https://www.linkedin.com/in/gokhan-ogut-5bb0225/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																	</ul>
+																</div>
+
+																<!-- Start .team-profile  -->
+																<div id="team-profile-11" class="team-profile mfp-hide">
+																	<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																	<div class="container-fluid">
+																		<div class="row no-mg">
+																			<div class="col-md-6">
+																				<div class="team-profile-photo">
+																					<img src="bundleassets/advisors/gokhan-ogut.jpg" alt="Gökhan Öğüt">
+																				</div>
+																			</div><!-- .col  -->
+
+																			<div class="col-md-6">
+																				<div class="team-profile-info">
+																					<h3 class="name">Gökhan Öğüt</h3>
+																					<p class="sub-title">Marketing Advisor</p>
+																					<ul class="tpi-social">
+
+																				<li><a href="https://www.linkedin.com/in/gokhan-ogut-5bb0225/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																					</ul>
+																					<p>Having worked at top level marketing positions for P&G and Danone, Mr Ogut spent an important part of his career at telecommunication giant Vodafone at positions like Chief Marketing Officer, Consumer Unit Vice President and Chief Executive Officer. </p>
+																					<p>He is advising Bundle Network about marketing, communication and general management.</p>
+
+																				</div>
+																			</div><!-- .col  -->
+
+																		</div><!-- .row  -->
+																	</div><!-- .container  -->
+																</div><!-- .team-profile  -->
+
+															</div>
+														</div><!-- .col  -->
+														<!-- END GÖKHAN -->
+
+<!-- START MOHAMMAD -->
+																				<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+																					<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+																						<div class="team-photo">
+																							<img src="bundleassets/advisors/mohammad-khan.jpg" alt="Mohammad S. Khan">
+																							<a href="#team-profile-16" class="expand-trigger content-popup"></a>
+																						</div>
+																						<div class="team-info">
+																							<h5 class="team-name">Mohammad S. <br>Khan</h5>
+																							<span class="team-title">Strategic Advisor</span>
+																							<ul class="team-social">
+																						<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																						<li><a href="https://www.linkedin.com/in/mshaheedkhan/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																						<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																							</ul>
+																						</div>
+
+																						<!-- Start .team-profile  -->
+																						<div id="team-profile-16" class="team-profile mfp-hide">
+																							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																							<div class="container-fluid">
+																								<div class="row no-mg">
+																									<div class="col-md-6">
+																										<div class="team-profile-photo">
+																											<img src="bundleassets/advisors/mohammad-khan.jpg" alt="Mohammad S. Khan">
+																										</div>
+																									</div><!-- .col  -->
+
+																									<div class="col-md-6">
+																										<div class="team-profile-info">
+																											<h3 class="name">Mohammad S. Khan</h3>
+																											<p class="sub-title">Strategic Advisor</p>
+																											<ul class="tpi-social">
+																										<li><a href="https://www.linkedin.com/in/mshaheedkhan/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																											</ul>
+																											<p>Mohammad is a fintech enthusiast and advisor with over 17 years of notable track record in the banking and finance sector. He is a serial Intrapreneur, having launched businesses in multiple jurisdictions. Currently he spearheads penetration of Islamic Banking services at a foriegn bank in Bahrain. He is also the Vice Chairman of Bahrain Association of Banks and advisor to the World Congress of Muslim Philanthropists. He advises a number of blockchain initiatives. He attended the Massachusetts Institute of Technology’s Fintech training and is a graduate of the Harvard Business School. He is the President (Bahrain) and Board member of the Harvard Business School Club of GCC. Mohammad has been ranked as one of the 500 influencer and shaper that make up the global Islamic economy.</p>
+
+																										</div>
+																									</div><!-- .col  -->
+
+																								</div><!-- .row  -->
+																							</div><!-- .container  -->
+																						</div><!-- .team-profile  -->
+
+																					</div>
+														</div><!-- .col  -->
+														<!-- END MOHAMMAD -->
+
+														<!-- START VLADIMIR -->
+															<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+																<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+																	<div class="team-photo">
+																		<img src="bundleassets/advisors/vladimir-diakov-closeup.jpg" alt="Vladimir Diakov">
+																		<a href="#team-profile-17" class="expand-trigger content-popup"></a>
+																	</div>
+																	<div class="team-info">
+																		<h5 class="team-name">Vladimir <br>Diakov</h5>
+																		<span class="team-title">CIS expansion leader</span>
+																		<ul class="team-social">
+																	<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																	<li><a href="https://www.linkedin.com/in/vladimir-diakov-92308023/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																	<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																		</ul>
+																	</div>
+
+																	<!-- Start .team-profile  -->
+																	<div id="team-profile-17" class="team-profile mfp-hide">
+																		<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																		<div class="container-fluid">
+																			<div class="row no-mg">
+																				<div class="col-md-6">
+																					<div class="team-profile-photo">
+																						<img src="bundleassets/advisors/vladimir-diakov.jpg" alt="Vladimir Diakov">
+																					</div>
+																				</div><!-- .col  -->
+
+																				<div class="col-md-6">
+																					<div class="team-profile-info">
+																						<h3 class="name">Vladimir Diakov</h3>
+																						<p class="sub-title">CIS expansion leader</p>
+																						<ul class="tpi-social">
+
+																					<li><a href="https://www.linkedin.com/in/vladimir-diakov-92308023/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																						</ul>
+																						<p>Vladimir has 20+ years experience in Banking and Finance, including top positions in Russian Banks (Vice-President, Director for Asset Protection, National Bank “TRUST”) and family offices.</p>
+																						<p>He is a founder of Cryptodetectives.ru project, and well-known specialist in the field of due-diligence, compliance and asset protection.</p>
+
+																					</div>
+																				</div><!-- .col  -->
+
+																			</div><!-- .row  -->
+																		</div><!-- .container  -->
+																	</div><!-- .team-profile  -->
+
+																</div>
+														</div><!-- .col  -->
+														<!-- END VLADIMIR -->
+
+<!-- START LUIS -->
+														<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+															<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+																<div class="team-photo">
+																	<img src="bundleassets/advisors/luis-cascao.jpg" alt="Luis Cascão Pereira, Ph.D.">
+																	<a href="#team-profile-18" class="expand-trigger content-popup"></a>
+																</div>
+																<div class="team-info">
+																	<h5 class="team-name">Luis Cascão <br>Pereira, Ph.D.</h5>
+																	<span class="team-title">Americas Expansion Leader</span>
+																	<ul class="team-social">
+																<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																<li><a href=""><em class="fa fa-linkedin"></em></a></li>
+																<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																	</ul>
+																</div>
+
+																<!-- Start .team-profile  -->
+																<div id="team-profile-18" class="team-profile mfp-hide">
+																	<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																	<div class="container-fluid">
+																		<div class="row no-mg">
+																			<div class="col-md-6">
+																				<div class="team-profile-photo">
+																					<img src="bundleassets/advisors/luis-cascao.jpg" alt="Luis Cascão Pereira, Ph.D.">
+																				</div>
+																			</div><!-- .col  -->
+
+																			<div class="col-md-6">
+																				<div class="team-profile-info">
+																					<h3 class="name">Luis Cascão Pereira, Ph.D.</h3>
+																					<p class="sub-title">Americas Expansion Leader</p>
+																					<ul class="tpi-social">
+
+																				<li><a href=""><em class="fa fa-linkedin"></em></a></li>
+																					</ul>
+																					<p>Luis brings more than 15 years of experience in technology with a proven track record of moving innovation to commercialization, most notably in biotechnology. He has worked in startups and is currently at a Fortune 100 company where he is responsible for management of global, cross-functional R&D teams, product development, partnering, intellectual property, and regulatory compliance. He has deep expertise in artificial enzyme evolution covered by 15 granted US patents. Luis is an angel investor and adviser to FinTech, crowdfunding, and Blockchain companies and is based in Silicon Valley. He graduated from Harvard Business School, has a Ph.D. from the University of California at Berkeley, and a B.S. from the École Polytechnique Fédérale de Lausanne.</p>
+
+																				</div>
+																			</div><!-- .col  -->
+
+
+																		</div><!-- .row  -->
+																	</div><!-- .container  -->
+																</div><!-- .team-profile  -->
+
+															</div>
+						</div><!-- .col  -->
+						<!-- END LUIS -->
+
+														<!-- START HENRIK -->
+																				<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+																					<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+																						<div class="team-photo">
+																							<img src="bundleassets/advisors/henrik-jorgensen.jpg" alt="Henrik Jørgensen">
+																							<a href="#team-profile-15" class="expand-trigger content-popup"></a>
+																						</div>
+																						<div class="team-info">
+																							<h5 class="team-name">Henrik Jørgensen</h5>
+																							<span class="team-title">Europe Expansion Leader</span>
+																							<ul class="team-social">
+																						<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																						<li><a href=""><em class="fa fa-linkedin"></em></a></li>
+																						<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																							</ul>
+																						</div>
+
+																						<!-- Start .team-profile  -->
+																						<div id="team-profile-15" class="team-profile mfp-hide">
+																							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																							<div class="container-fluid">
+																								<div class="row no-mg">
+																									<div class="col-md-6">
+																										<div class="team-profile-photo">
+																											<img src="bundleassets/advisors/henrik-jorgensen.jpg" alt="Henrik Jørgensen">
+																										</div>
+																									</div><!-- .col  -->
+
+																									<div class="col-md-6">
+																										<div class="team-profile-info">
+																											<h3 class="name">Henrik Jørgensen</h3>
+																											<p class="sub-title">Europe Expansion Leader</p>
+																											<ul class="tpi-social">
+
+																										<li><a href=""><em class="fa fa-linkedin"></em></a></li>
+																											</ul>
+																											<p>Henrik Jørgensen has more than 20 years of experience as a management consultant with extensive international experience from working in Europe and North America overseeing development and implementation of business-critical projects, often with significant IT and technology content. He has worked extensively for organizations with a large number of stakeholders – both private and public. Henrik holds a MSc, PLDA (Harvard Business School), been visiting researcher at MIT (Leaders for Manufacturing), and has attended specialist courses at Oxford University - Templeton College, IESE, Barcelona, Erasmus Rotterdam, and UW-Madison.</p>
+
+																										</div>
+																									</div><!-- .col  -->
+
+																								</div><!-- .row  -->
+																							</div><!-- .container  -->
+																						</div><!-- .team-profile  -->
+
+																					</div>
+														</div><!-- .col  -->
+<!-- END HENRIK -->
+
+														<!-- START NESLIHAN -->
+															<div class="col-lg-3 col-md-6 d-inline-flex justify-content-center">
+																<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+																	<div class="team-photo">
+																		<img src="bundleassets/advisors/neslihan-yucel.jpg" alt="Neslihan Yücel">
+																		<a href="#team-profile-14" class="expand-trigger content-popup"></a>
+																	</div>
+																	<div class="team-info">
+																		<h5 class="team-name">Neslihan <br>Yücel</h5>
+																		<span class="team-title">Investor Relations</span>
+																		<ul class="team-social">
+																	<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+																	<li><a href="https://www.linkedin.com/in/neslihan-y%C3%BCcel-35410724/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																	<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+																		</ul>
+																	</div>
+
+																	<!-- Start .team-profile  -->
+																	<div id="team-profile-14" class="team-profile mfp-hide">
+																		<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+																		<div class="container-fluid">
+																			<div class="row no-mg">
+																				<div class="col-md-6">
+																					<div class="team-profile-photo">
+																						<img src="bundleassets/advisors/neslihan-yucel.jpg" alt="Eddy Travia">
+																					</div>
+																				</div><!-- .col  -->
+
+																				<div class="col-md-6">
+																					<div class="team-profile-info">
+																						<h3 class="name">Neslihan Yücel</h3>
+																						<p class="sub-title">Investor Relations</p>
+																						<ul class="tpi-social">
+
+																					<li><a href="https://www.linkedin.com/in/neslihan-y%C3%BCcel-35410724/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+																						</ul>
+																						<p>Neslihan has more than 10 years experience in the finance sector.</p>
+																						<p>She worked as an equity analyst at different investment banks for eight years while she was a Vice President for Investor Relations at Akbank until May 2017. She holds a Master’s degree in Economics from Istanbul University.</p>
+																						<p>She is advising Bundle Network about investor relations.</p>
+
+																					</div>
+																				</div><!-- .col  -->
+
+																			</div><!-- .row  -->
+																		</div><!-- .container  -->
+																	</div><!-- .team-profile  -->
+
+																</div>
+														</div><!-- .col  -->
+														<!-- END NESLIHAN -->
+
+
+
+
+
+
+
+								<!-- END ADVISORS CONTENT -->
+								</div><!-- .row  -->
+							</div><!-- .col  -->
+			</div><!-- .row  -->
+
+
+
+
+		<!-- ***************************** TEAM ***************************************** -->
+
+						<div class="row">
+							<div class="col-md-12">
+								<div class="gaps size-2x"></div>
+								<h3 class="sub-heading ucap">Team</h3>
+								<div class="gaps size-2x"></div>
+							</div>
+						</div>
+
+
+			<div class="row">
+
+<!-- START UMUT -->
+				<div class="col-md-6 col-lg-3 d-inline-flex justify-content-center">
+					<div class="team-member animated" data-animate="fadeInUp" data-delay=".2">
+						<div class="team-photo">
+							<img src="bundleassets/team/umut-senol-closeup.jpg" alt="Umut Şenol">
+							<a href="#team-profile-1" class="expand-trigger content-popup"></a>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Umut <br>Şenol</h5>
+							<span class="team-title">CEO </span>
+							<ul class="team-social">
+								<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+								<li><a href="https://www.linkedin.com/in/umutsenol/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+								<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+							</ul>
+						</div>
+
+						<!-- Start .team-profile  -->
+						<div id="team-profile-1" class="team-profile mfp-hide">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="container-fluid">
+								<div class="row no-mg">
+									<div class="col-md-6">
+										<div class="team-profile-photo">
+											<img src="bundleassets/team/umut-senol.jpg" alt="Umut Şenol" />
+										</div>
+									</div><!-- .col  -->
+
+									<div class="col-md-6">
+										<div class="team-profile-info">
+											<h3 class="name">Umut Şenol</h3>
+											<p class="sub-title">CEO </p>
+											<ul class="tpi-social">
+
+												<li><a href="https://www.linkedin.com/in/umutsenol/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+											</ul>
+											<p>Umut has more than 15 years of top-level finance, IT, marketing and HR management experience at multinational giants in the retail, pharma, production and advertising sectors.</p>
+											<p>He graduated from Bogazici University and Harvard Business School, spent three years at PwC as an experienced team member, two years as CFO of Tchibo (Turkey and Russia), 20 months as CFO of Hopi and two years as chairman of the board at his own outdoor advertising company, Core out of Home.</p>
+
+										</div>
+									</div><!-- .col  -->
+
+								</div><!-- .row  -->
+							</div><!-- .container  -->
+						</div><!-- .team-profile  -->
+
+					</div>
+				</div><!-- .col  -->
+				<!-- END UMUT -->
+
+<!-- START BURAK -->
+				<div class="col-md-6 col-lg-3 d-inline-flex justify-content-center">
+					<div class="team-member animated" data-animate="fadeInUp" data-delay=".4">
+						<div class="team-photo">
+							<img src="bundleassets/team/burak-akdag.jpg" alt="team">
+							<a href="#team-profile-6" class="expand-trigger content-popup"></a>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Burak <br>Akdağ</h5>
+							<span class="team-title">Strategic Advisor</span>
+							<ul class="team-social">
+								<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+								<li><a href="https://www.linkedin.com/in/burak-akda%C4%9F-69160622/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+								<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+							</ul>
+						</div>
+
+						<!-- Start .team-profile  -->
+						<div id="team-profile-6" class="team-profile mfp-hide">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="container-fluid">
+								<div class="row no-mg">
+									<div class="col-md-6">
+										<div class="team-profile-photo">
+											<img src="bundleassets/team/burak-akdag.jpg" alt="team" />
+										</div>
+									</div><!-- .col  -->
+
+									<div class="col-md-6">
+										<div class="team-profile-info">
+											<h3 class="name">Burak <br>Akdağ</h3>
+											<p class="sub-title">Strategic Advisor</p>
+											<ul class="tpi-social">
+
+												<li><a href="https://www.linkedin.com/in/burak-akda%C4%9F-69160622/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+											</ul>
+											<p>Burak Akdag graduated from Bilkent University of Industrial Engineering and received his Strategic Marketing and Brand Management MBA from Bahcesehir University. </p>
+											<p>His professional career includes tenure at global brands like Hyundai and Pepsico at managerial levels. He works as Strategy Manager at a retail application company, which has a digital currency for retail business and has more than 5 million members in Turkey.</p>
+
+										</div>
+									</div><!-- .col  -->
+
+								</div><!-- .row  -->
+							</div><!-- .container  -->
+						</div><!-- .team-profile  -->
+
+					</div>
+				</div><!-- .col  -->
+				<!-- END BURAK -->
+
+				<!-- START HASAN -->
+								<div class="col-md-6 col-lg-3 d-inline-flex justify-content-center">
+									<div class="team-member animated" data-animate="fadeInUp" data-delay=".5">
+										<div class="team-photo">
+											<img src="bundleassets/team/hasan-saglam.jpg" alt="team">
+											<a href="#team-profile-7" class="expand-trigger content-popup"></a>
+										</div>
+										<div class="team-info">
+											<h5 class="team-name">Hasan <br>Sağlam</h5>
+											<span class="team-title">Financial Advisor</span>
+											<ul class="team-social">
+												<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+												<!--<li><a href=""><em class="fa fa-linkedin"></em></a></li>-->
+												<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+											</ul>
+										</div>
+
+										<!-- Start .team-profile  -->
+										<div id="team-profile-7" class="team-profile mfp-hide">
+											<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+											<div class="container-fluid">
+												<div class="row no-mg">
+													<div class="col-md-6">
+														<div class="team-profile-photo">
+															<img src="bundleassets/team/hasan-saglam.jpg" alt="team" />
+														</div>
+													</div><!-- .col  -->
+
+													<div class="col-md-6">
+														<div class="team-profile-info">
+															<h3 class="name">Hasan Sağlam</h3>
+															<p class="sub-title">Financial Advisor</p>
+															<ul class="tpi-social">
+
+															</ul>
+															<p>After graduating from Bilkent University Industrial Engineering, Hasan worked at Merck & Co for two years as pricing and financial treasury analyst. </p>
+															<p>His next stop was an FP&A Manager position at Pepsico which included South East Europe Region duties which included almost 11 countries.  Along with his current duty as the FP&A Manager at Hopi he is intensely involved with Bundle project development and pricing strategies.</p>
+
+														</div>
+													</div><!-- .col  -->
+
+												</div><!-- .row  -->
+											</div><!-- .container  -->
+										</div><!-- .team-profile  -->
+
+									</div>
+				</div><!-- .col  -->
+				<!-- END HASAN -->
+
+<!-- START SERHAT -->
+	<div class="col-md-6 col-lg-3 d-inline-flex justify-content-center">
+					<div class="team-member animated" data-animate="fadeInUp" data-delay=".4">
+						<div class="team-photo">
+							<img src="bundleassets/team/serhat-aydin-closeup.jpg" alt="team">
+							<a href="#team-profile-4" class="expand-trigger content-popup"></a>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Serhat <br>Aydın</h5>
+							<span class="team-title">Head of Communication and Legal</span>
+							<ul class="team-social">
+								<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+								<li><a href="https://www.linkedin.com/in/serhataydin/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+								<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+							</ul>
+						</div>
+
+						<!-- Start .team-profile  -->
+						<div id="team-profile-4" class="team-profile mfp-hide">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="container-fluid">
+								<div class="row no-mg">
+									<div class="col-md-6">
+										<div class="team-profile-photo">
+											<img src="bundleassets/team/serhat-aydin.jpg" alt="team" />
+										</div>
+									</div><!-- .col  -->
+
+									<div class="col-md-6">
+										<div class="team-profile-info">
+											<h3 class="name">Serhat Aydın</h3>
+											<p class="sub-title">Head of Communication and Legal</p>
+											<ul class="tpi-social">
+
+												<li><a href="https://www.linkedin.com/in/serhataydin/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+											</ul>
+											<p>After graduating from Bilkent University Political Science department, Serhat worked as a content editor for ChemOrbis Electronic Marketplace. </p>
+											<p>He spent almost seven years at Frito-Lay & PepsiCo family at different levels up to the accounting manager. He dealt with more then 10 countries’ accounting operations while he was working as an international accounting manager at retail giant DeFacto. He is currently dealing with communications and legal at Bundle Network.</p>
+
+										</div>
+									</div><!-- .col  -->
+
+								</div><!-- .row  -->
+							</div><!-- .container  -->
+						</div><!-- .team-profile  -->
+
+					</div>
+				</div><!-- .col  -->
+				<!-- END SERHAT -->
+
+<!-- START ERTUGRUL -->
+				<div class="col-md-6 col-lg-3 d-inline-flex justify-content-center">
+					<div class="team-member animated" data-animate="fadeInUp" data-delay=".3">
+						<div class="team-photo">
+							<img src="bundleassets/team/ertugrul-yilmaz.jpg" alt="team">
+							<a href="#team-profile-2" class="expand-trigger content-popup"></a>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Ertuğrul <br>Yılmaz</h5>
+							<span class="team-title">CTO</span>
+							<ul class="team-social">
+								<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+								<li><a href="https://www.linkedin.com/in/yilmazertugrul/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+								<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+							</ul>
+						</div>
+
+						<!-- Start .team-profile  -->
+						<div id="team-profile-2" class="team-profile mfp-hide">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="container-fluid">
+								<div class="row no-mg">
+									<div class="col-md-6">
+										<div class="team-profile-photo">
+											<img src="bundleassets/team/ertugrul-yilmaz.jpg" alt="Ertuğrul Yılmaz" />
+										</div>
+									</div><!-- .col  -->
+
+									<div class="col-md-6">
+										<div class="team-profile-info">
+											<h3 class="name">Ertuğrul Yılmaz</h3>
+											<p class="sub-title">CTO</p>
+											<ul class="tpi-social">
+
+												<li><a href="https://www.linkedin.com/in/yilmazertugrul/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+											</ul>
+											<p>Ertugrul has more than 10 years of cumulative experience in the IT sector.</p>
+											<p>His career includes management of real-time recommendation engine development teams and implementation of these projects, which were published as case studies on AWS and Google Cloud Platforms.</p>
+											<p>He has been the leading technology officer at Bundle Network since its inception and is responsible for building a scalable, reliable and resilient aggregator platform.</p>
+
+										</div>
+									</div><!-- .col  -->
+
+								</div><!-- .row  -->
+							</div><!-- .container  -->
+						</div><!-- .team-profile  -->
+
+					</div>
+				</div><!-- .col  -->
+<!-- END ERTUGRUL -->
+
+<!-- START SAMEER -->
+				<div class="col-md-6 col-lg-3 d-inline-flex justify-content-center">
+					<div class="team-member animated" data-animate="fadeInUp" data-delay=".4">
+						<div class="team-photo">
+							<img src="bundleassets/team/sameer-sait.jpg" alt="team">
+							<a href="#team-profile-3" class="expand-trigger content-popup"></a>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">Sameer <br>Sait</h5>
+							<span class="team-title">COO</span>
+							<ul class="team-social">
+								<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+								<li><a href="https://www.linkedin.com/in/sameersait/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+								<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+							</ul>
+						</div>
+
+						<!-- Start .team-profile  -->
+						<div id="team-profile-3" class="team-profile mfp-hide">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="container-fluid">
+								<div class="row no-mg">
+									<div class="col-md-6">
+										<div class="team-profile-photo">
+											<img src="bundleassets/team/sameer-sait.jpg" alt="team" />
+										</div>
+									</div><!-- .col  -->
+
+									<div class="col-md-6">
+										<div class="team-profile-info">
+											<h3 class="name">Sameer Sait</h3>
+											<p class="sub-title">COO</p>
+											<ul class="tpi-social">
+
+												<li><a href="https://www.linkedin.com/in/sameersait/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+											</ul>
+											<p>Sameer leads enterprise security at Arrow Electronics, a Fortune 150 company specializing in distribution and value-added services for electronic components and computer products. </p>
+											<p>His global organization is responsible for IT risk, security operations, identity/access management, eDiscovery, investigations and physical security. Prior to assuming his current position, Sameer led the information security program for MassMutual and all its subsidiaries. </p>
+											<p>He has over 15 years of experience leading global, crossfunctional teams with the majority of his experience in the financial services domain. Sameer is an active angel investor and advisor to a number of security startups. His educational background includes a master’s degree from Carnegie-Mellon University and a bachelor’s degree from the University of Arizona.</p>
+
+										</div>
+									</div><!-- .col  -->
+
+								</div><!-- .row  -->
+							</div><!-- .container  -->
+						</div><!-- .team-profile  -->
+
+					</div>
+				</div><!-- .col  -->
+				<!-- END SAMEER -->
+
+<!-- *********************** -->
+
+
+<!-- START NICOLAI -->
+				<div class="col-md-6 col-lg-3 d-inline-flex justify-content-center">
+					<div class="team-member animated" data-animate="fadeInUp" data-delay=".4">
+						<div class="team-photo">
+							<img src="bundleassets/team/nicolai-wessmann.jpg" alt="team">
+							<a href="#team-profile-5" class="expand-trigger content-popup"></a>
+						</div>
+						<div class="team-info">
+							<h5 class="team-name">C. Nicolai <br>Wessmann</h5>
+							<span class="team-title">Sales Strategy Leader</span>
+							<ul class="team-social">
+								<!--<li><a href=""><em class="fa fa-facebook"></em></a></li>-->
+								<li><a href="https://www.linkedin.com/in/carlnicolai/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+								<!--<li><a href=""><em class="fa fa-twitter"></em></a></li>-->
+							</ul>
+						</div>
+
+						<!-- Start .team-profile  -->
+						<div id="team-profile-5" class="team-profile mfp-hide">
+							<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+							<div class="container-fluid">
+								<div class="row no-mg">
+									<div class="col-md-6">
+										<div class="team-profile-photo">
+											<img src="bundleassets/team/nicolai-wessmann.jpg" alt="team" />
+										</div>
+									</div><!-- .col  -->
+
+									<div class="col-md-6">
+										<div class="team-profile-info">
+											<h3 class="name">C. Nicolai Wessmann</h3>
+											<p class="sub-title">Sales Strategy Leader</p>
+											<ul class="tpi-social">
+
+												<li><a href="https://www.linkedin.com/in/carlnicolai/" target="_out"><em class="fa fa-linkedin"></em></a></li>
+											</ul>
+											<p>After more than 6 years working at Schibsted Media Group Oslo as project manager for international operations, Carl founded and became CEO of Spiff, the social saving platform. </p>
+											<p>He holds a Master’s degree in Business and Economics from BI Norwegian Business School and graduated from Harvard Business School.</p>
+
+										</div>
+									</div><!-- .col  -->
+
+								</div><!-- .row  -->
+							</div><!-- .container  -->
+						</div><!-- .team-profile  -->
+
+					</div>
+				</div><!-- .col  -->
+				<!-- END NICOLAI -->
+
+<!-- *********************** -->
+
+
+
+			</div><!-- .row  -->
 
 		</div>
+	</div>
+	<!-- Start Section -->
 
-    <header id="header" class="full-header">
 
-			<div id="header-wrap">
 
-				<div class="container clearfix">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+	<!-- Start Section -->
+	<div class="section section-pad section-bg section-connect" id="roadmap">
+		<div class="container">
 
-					<!-- Logo
-					============================================= -->
-					<div id="logo">
-						<a href="/" class="standard-logo" data-dark-logo="images/bundle-logo.png"><img src="images/bundle-logo.png" alt="Bundle Network"></a>
-						<a href="/" class="retina-logo" data-dark-logo="images/bundle-logo@2x.png"><img src="images/bundle-logo@2x.png" alt="Bundle Network"></a>
-					</div><!-- #logo end -->
-
-					<!-- Primary Navigation
-					============================================= -->
-					<nav id="primary-menu" class="one-page-menu">
-
-						<ul class="sf-js-enabled">
-							<li class="sub-menu"><a href="#" data-href="#section-the-problem" class="sf-with-ul"><div>The Problem</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-the-solution" class="sf-with-ul"><div>The Solution</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-video" class="sf-with-ul"><div>Video</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-token" class="sf-with-ul"><div>Token</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-faq" class="sf-with-ul"><div>Faq's</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-team" class="sf-with-ul"><div>Team</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-advisors" class="sf-with-ul"><div>Advisors</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-partners" class="sf-with-ul"><div>Partners</div></a></li>
-              <li class="sub-menu"><a href="#" data-href="#section-events-press" class="sf-with-ul"><div>Events</div></a></li>
-						</ul>
-
-					</nav><!-- #primary-menu end -->
-
+			<div class="row text-center">
+				<div class="col">
+					<div class="section-head">
+						<h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">Our Timeline
+							<span>Timeline</span>
+						</h2>
+					</div>
 				</div>
-
 			</div>
 
-		</header>
-
-    <section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
-      <div class="slider-parallax-inner">
-
-        <div class="swiper-container swiper-parent">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide dark">
-              <div class="container clearfix">
-                <div class="slider-caption slider-caption-center">
-                  <h1 class="" style="font-size: 3.5vw;color:#fff;text-transform: uppercase;font-weight:bold;">Crypto Trading Simplified</h1>
-                  <h2 class="" style="font-size: 1.8vw;color:#fff;text-transform: none;margin-bottom:10px;">The Ultimate Gateway </h2>
-                  <p class="bottommargin" data-caption-animate="fadeInUp" data-caption-delay="200">
-                    <span class="text-rotater nocolor" data-separator="|" data-rotate="flipInX" data-speed="2000">
-    									<span class="t-rotate" style="font-size:1.3vw;color:#1abc9c;font-weight:bold;">One Account|Best Prices|Multiple &amp; Instant Purchase|Widest Access to Crypto Market</span>
-                    </span>
-                  </p>
-
-                  <a target="_blank" href="pdf/BundleNetwork-WhitePaper-v1.5.pdf" class="button button-rounded button-large button-blue" style=""><i class="icon-book3"></i><span>Whitepaper</span></a>
-
-                  <div class="hidden-xs topmargin-sm" style="background:#fff;">
-                    <div class="widget-subscribe-form-result"></div>
-                    <form action="https://network.us17.list-manage.com/subscribe/post?u=407b15925ff3528bb5cc1c264&id=d43e7239ab" method="post" class="nobottommargin" novalidate="novalidate">
-                      <div class="input-group divcenter">
-                        <input type="email" name="EMAIL" class="form-control input-lg not-dark required email" placeholder="Enter your Email Address.." style="border: 0; box-shadow: none; overflow: hidden;" aria-required="true">
-                        <span class="input-group-btn">
-      										<button class="button t400" type="submit" style="border-radius: 3px;">Subscribe</button>
-      									</span>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-              <div class="video-wrap">
-                <video id="slide-video" poster="images/video-ss.png" preload="auto" loop autoplay muted>
-                  <source src="images/bg-movie-1.webm" type='video/webm' />
-									<source src="images/bg-movie-1.mp4" type='video/mp4' />
-								</video>
-                <div class="video-overlay" style="background-color: rgba(0,0,0,0.40);"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Content
-		============================================= -->
-    <section id="content">
-      <div class="content-wrap" style="padding-top:0;">
-        <div class="page-section section notopmargin nobottommargin visible-xs visible-sm">
-          <div class="container clearfix text-center">
-            <div class="heading-block center">
-              <h2>White Paper</h2>
-            </div>
-
-            <a href="pdf/BundleNetwork-WhitePaper-v1.5.pdf" class="button button-rounded button-large button-blue" style=""><i class="icon-book3"></i><span>Whitepaper</span></a>
-          </div>
-        </div>
-        <!-- Current Market Problems
-        ============================================= -->
-        <div id="section-the-problem" class="page-section section notopmargin nobottommargin" style="color: #999; background-color: #F8FAFB; border-top: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;">
-          <div class="container clearfix">
-            <div class="heading-block center">
-              <h2>Current Market Problems</h2>
-            </div>
-
-            <div class="row topmargin-lg clearfix">
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-minus-circle inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Availability</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">The market already has more than +1,000 coins/tokens and +100 exchanges</p>
-                <p class="" style="line-height: 20px;font-size:18px;">This fragmentation makes it impossible to find every token at every exchange platform</p>
-              </div>
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-cogs inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Liquidity</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">Due to the availability problem, tokens get very limited demand and supply</p>
-                <p class="" style="line-height: 20px;font-size:18px;">Which leads to very low figures of daily trade</p>
-              </div>
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-exchange inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Arbitrage</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">Due to liquidity problem, we see huge price differences between exchanges</p>
-                <p class="" style="line-height: 20px;font-size:18px;">Even for the same token, there are huge arbitrage differences which leads to an inefficient market</p>
-              </div>
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-bar-chart inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Price Fluctuations</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">Due to low trading volume, prices can go up / down 20 % - 30 % in a day</p>
-                <p class="" style="line-height: 20px;font-size:18px;">Which creates an image of immature market for newcomers</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Solutions of Bundle Network
-        ============================================= -->
-        <div id="section-the-solution" class="page-section section notopmargin nobottommargin" style="color: #999; background-color: #F8FAFB; border-top: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;">
-          <div class="container clearfix">
-            <div class="heading-block center">
-              <h2>Solutions of Bundle Network</h2>
-            </div>
-
-            <div class="row topmargin-lg clearfix">
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-universal-access inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Access ‘em all</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">Bundle network will be connected to at least 10+ different exchanges to enable a wider access to +90% of the market from one single point</p>
-                <p class="" style="line-height: 20px;font-size:18px;">This access will pile the tokens and exchanges up, which are already very fragmentated</p>
-              </div>
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-coffee inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Welcome the newcomers</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">Bundle Network aims to welcome the masses into the crypto trading world thanks to its simple trading interface and unique gateway feature</p>
-                <p class="" style="line-height: 20px;font-size:18px;">This will eliminate the complications of current market place; the market will have more contributors which will lead to bigger liquidity</p>
-              </div>
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-signal inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Optimize the market</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">Bundle Network will display real time prices at +10 different exchanges and enable instant trading of these coins/tokens at those prices</p>
-                <p class="" style="line-height: 20px;font-size:18px;">This will eventually diminish the arbitrage differences between the exchanges and help the market to perform more efficiently</p>
-              </div>
-
-              <div class="col-md-3 text-center">
-                <i class="i-plain i-large fa fa-balance-scale inline-block" style="font-size:70px;margin-bottom: 30px; color: #1abc9c;"></i>
-                <div class="heading-block nobottomborder" style="margin-bottom: 15px;">
-                  <h4 style="font-size: 16px;">Higher volume, less fluctuation</h4>
-                </div>
-                <p class="" style="line-height: 20px;font-size:18px;">By the increased volume of contributors, coins/tokens will meet a wider audience</p>
-                <p class="" style="line-height: 20px;font-size:18px;">Wider audience will lead to wider liquidity and less fluctuating prices then before</p>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Video
-        ============================================= -->
-        <div id="section-video" class="page-section section notopmargin nobottommargin clearfix">
-          <div class="heading-block center">
-            <h3>Bundle Network</h3>
-            <span>Platform Demo</span>
-          </div>
-
-          <div class="container clearfix">
-            <div class="row clearfix">
-              <div class="col-md-6">
-                <!-- Youtube Video Link
-								============================================= -->
-                <a href="https://www.youtube.com/watch?v=ofpO-4fnC9s" data-lightbox="iframe">
-									<img src="images/video-ss.png" alt="Bundle Network Demo" class="image_fade" style="box-shadow: rgba(0, 0, 0, 0.14902) 0px 0px 25px 0px; border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; opacity: 1;">
-									<i class="icon-play" style="position: absolute; top: 50%; left: 50%; font-size: 60px; color: #333; margin-top: -45px; margin-left: -23px"></i>
-								</a>
-              </div>
-              <!-- Video Texts
-							============================================= -->
-              <div class="col-md-6" style="padding-left: 60px;">
-                <div class="heading-block topmargin-sm bottommargin-sm noborder">
-                  <h3 class="nott" style="font-size: 48px; font-weight: 700; letter-spacing: -2px; line-height: 58px">A Glimpse of The Future</h3>
-                </div>
-                <p class="t600">Our IT team already developed a working demo of the platform, which can perform live transactions.</p>
-                <h5 class="nobottommargin t600">· The demo was premiered at d10e Gibraltar event on the 1st of November. </h5>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Token Distribution
-        ============================================= -->
-        <div id="section-token" class="page-section section notopmargin nobottommargin">
-          <div class="container clearfix">
-            <div class="heading-block title-center page-section">
-              <h2>The total token supply is fixed at <span>1 Billion BND</span></h2>
-              <span>Complete list of the Token Sharing</span>
-            </div>
-
-            <div class="tabs tabs-bb clearfix ui-tabs ui-widget ui-widget-content ui-corner-all">
-
-              <ul class="tab-nav clearfix ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
-                <li class="ui-state-default ui-corner-top" role="tab" tabindex="0" aria-controls="tabs-token-sale" aria-labelledby="ui-id-17" aria-selected="false" aria-expanded="false"><a href="#tabs-token-sale" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-17">Token Sale</i></a></li>
-                <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-marketing" aria-labelledby="ui-id-18" aria-selected="false" aria-expanded="false"><a href="#tabs-marketing" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-18">Marketing</a></li>
-                <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-operational-expenses" aria-labelledby="ui-id-19" aria-selected="false" aria-expanded="false"><a href="#tabs-operational-expenses" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-19">Operational Expenses</a></li>
-                <li class="hidden-phone ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-team" aria-labelledby="ui-id-20" aria-selected="true" aria-expanded="true"><a href="#tabs-team" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-20">Team</a></li>
-              </ul>
-
-              <div class="tab-container">
-
-                <div class="tab-content clearfix ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-token-sale" aria-labelledby="ui-id-17" role="tabpanel" aria-hidden="true" style="display: none;">
-                  <div class="col_two_fifth topmargin nobottommargin" style="min-height: 350px;">
-                    <canvas id="chart-doughnut-token-sale" width="450" height="350"></canvas>
-                    <ul class="list-group" style="width:250px; margin-left:100px;">
-                      <li class="list-group-item"><span class="fa fa-circle" style="color:#57b6b3;"></span> 51% &nbsp; Token Sale</li>
-                      <li class="list-group-item"><span class="fa fa-circle" style="color:#ed2947;"></span> 12% &nbsp; Marketing</li>
-                      <li class="list-group-item"><span class="fa fa-circle" style="color:#f69349;"></span> 17% &nbsp; Operational Expenses</li>
-                      <li class="list-group-item"><span class="fa fa-circle" style="color:#951c3c;"></span> 20% &nbsp; Team</li>
-                    </ul>
-                  </div>
-
-                  <div class="col_three_fifth nobottommargin col_last">
-                    <div class="heading-block">
-                      <h3>Token Sale</h3>
-                      <span>BND is built as an EIP-23 (former ERC-23) token on the Ethereum blockchain</span>
-                    </div>
-
-                    <ul class="list-group">
-                      <li class="list-group-item">
-                        <span class="badge">Utility token</span> Token Type
-                      </li>
-                      <li class="list-group-item">
-                        <span class="badge">1 Billion</span> BND available for public sale
-                      </li>
-                      <li class="list-group-item">
-                        <span class="badge">$ 2.5 Million USD</span> Min Cap
-                      </li>
-                      <li class="list-group-item">
-                        <span class="badge">$ 32 Million USD</span> Hard Cap (Max limit)
-                      </li>
-                    </ul>
-
-                    <div class="clearfix"></div>
-
-                    <p>After token sale all the unsold tokens will be burned.</p>
-
-                    <table class="table table-bordered">
-                      <colgroup>
-                        <col class="col-xs-4">
-                        <col class="col-xs-4">
-                      </colgroup>
-                      <tbody>
-                        <tr>
-                          <td class="info">BND Price</td>
-                          <td>$ 0.10</td>
-                        </tr>
-                        <tr>
-                          <td class="info">FIRST 24 HRS</td>
-                          <td>25% Bonus Tokens</td>
-                        </tr>
-                        <tr>
-                          <td class="info">NEXT 72 HRS</td>
-                          <td>15% Bonus Tokens</td>
-                        </tr>
-                        <tr>
-                          <td class="info">NEXT 7 DAYS</td>
-                          <td>10% Bonus Tokens</td>
-                        </tr>
-                        <tr>
-                          <td class="info">UNTIL END OF SALE</td>
-                          <td>5% Bonus Tokens</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="tab-content clearfix ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-marketing" aria-labelledby="ui-id-18" role="tabpanel" aria-hidden="true" style="display: none;">
-                <div class="col_two_fifth topmargin nobottommargin" style="min-height: 350px;">
-                  <canvas id="chart-doughnut-marketing" width="450" height="350"></canvas>
-                  <ul class="list-group" style="width:250px; margin-left:100px;">
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#57b6b3;"></span> 51% &nbsp; Token Sale</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#ed2947;"></span> 12% &nbsp; Marketing</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#f69349;"></span> 17% &nbsp; Operational Expenses</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#951c3c;"></span> 20% &nbsp; Team</li>
-                  </ul>
-                </div>
-                <div class="col_three_fifth nobottommargin col_last">
-                  <div class="heading-block">
-                    <h3>Marketing</h3>
-                    <span>BND Allocated : 120 Million</span>
-                  </div>
-
-                  <strong>Purpose :</strong>
-
-                  <p>Marketing Incentives, Partnerships, ICO Campaign Costs, Bounty Campaigns</p>
-                  <ul class="list-group">
-                    <li class="list-group-item">30 Million Released at TGE</li>
-                    <li class="list-group-item">30 Million Locked 4 months by smart contract</li>
-                    <li class="list-group-item">30 Million Locked 8 months by smart contract</li>
-                    <li class="list-group-item">30 Million Locked 12 months by smart contract</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="tab-content clearfix ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-operational-expenses" aria-labelledby="ui-id-19" role="tabpanel" aria-hidden="true" style="display: none;">
-                <div class="col_two_fifth topmargin nobottommargin" style="min-height: 350px;">
-                  <canvas id="chart-doughnut-operational-expenses" width="450" height="350"></canvas>
-                  <ul class="list-group" style="width:250px; margin-left:100px;">
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#57b6b3;"></span> 51% &nbsp; Token Sale</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#ed2947;"></span> 12% &nbsp; Marketing</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#f69349;"></span> 17% &nbsp; Operational Expenses</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#951c3c;"></span> 20% &nbsp; Team</li>
-                  </ul>
-                </div>
-                <div class="col_three_fifth nobottommargin col_last">
-                  <div class="heading-block">
-                    <h3>Operational Expenses of the Platform</h3>
-                    <span>BND Allocated : 170 Million</span>
-                  </div>
-
-                  <strong>Purpose :</strong>
-
-                  <p>Development, Server, Security, Legal, Consulting</p>
-                  <ul class="list-group">
-                    <li class="list-group-item">50 Million Released at TGE</li>
-                    <li class="list-group-item">40 Million Locked 6 months by smart contract</li>
-                    <li class="list-group-item">40 Million Locked 12 months by smart contract</li>
-                    <li class="list-group-item">40 Million Locked 18 months by smart contract</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="tab-content clearfix ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-team" aria-labelledby="ui-id-20" role="tabpanel" aria-hidden="false" style="display: block;">
-                <div class="col_two_fifth topmargin nobottommargin" style="min-height: 350px;">
-                  <canvas id="chart-doughnut-team" width="450" height="350"></canvas>
-                  <ul class="list-group" style="width:250px; margin-left:100px;">
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#57b6b3;"></span> 51% &nbsp; Token Sale</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#ed2947;"></span> 12% &nbsp; Marketing</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#f69349;"></span> 17% &nbsp; Operational Expenses</li>
-                    <li class="list-group-item"><span class="fa fa-circle" style="color:#951c3c;"></span> 20% &nbsp; Team</li>
-                  </ul>
-                </div>
-                <div class="col_three_fifth nobottommargin col_last">
-                  <div class="heading-block">
-                    <h3>Team</h3>
-                    <span>BND Allocated : 200 Million</span>
-                  </div>
-
-                  <strong>Purpose :</strong>
-
-                  <p>Founders, Team members, Advisors</p>
-                  <ul class="list-group">
-                    <li class="list-group-item">50 Million Released at TGE</li>
-                    <li class="list-group-item">50 Million Locked 6 months by smart contract</li>
-                    <li class="list-group-item">50 Million Locked 12 months by smart contract</li>
-                    <li class="list-group-item">50 Million Locked 18 months by smart contract</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      <!-- FAQ's
-        ============================================= -->
-      <div id="section-faq" class="page-section section notopmargin nobottommargin">
-        <div class="container clearfix">
-          <div class="heading-block center">
-            <h3>FAQ's</h3>
-            <span>Frequently Asked Questions</span>
-          </div>
-
-          <div class="postcontent notopmargin nobottommargin clearfix">
-            <div id="faqs" class="faqs">
-
-              <div class="toggle faq faq-marketplace faq-authors">
-                <div class="togglet"><i class="toggle-closed fa fa-industry"></i><i class="toggle-open fa fa-industry"></i>What is bundle network?</div>
-                <div class="togglec">Bundle Network is an online platform connected to various exchanges, enabling users to purchase and sell multiple coins & tokens within seconds of execution through one account and one click, at the best price possible either in bundles,
-                  or individually. It will also serve as an online meeting point for cryptocurrency investors to share and discuss topics related to the trading cryptocurrencies. </div>
-              </div>
-
-              <div class="toggle faq faq-authors faq-authors">
-                <div class="togglet"><i class="toggle-closed fa fa-btc"></i><i class="toggle-open fa fa--btc"></i>What is bundle token?</div>
-                <div class="togglec">Bundle Token will be used at our platform for two different functionalities. It will neither represent the shares of Bundle Network LLC nor it gives any kind of voting rights for the holders.</div>
-              </div>
-
-              <div class="toggle faq faq-authors">
-                <div class="togglet"><i class="toggle-closed fa fa-cubes"></i><i class="toggle-open fa fa-cubes"></i>What are the functionalities of the token?</div>
-                <div class="togglec">
-                  <ol class="list-ordered faq-list">
-                    <li><b>Lower Commission Rates: Users performing transactions in the Bundle Platform pay lower fees.</b>
-                      <ul class="">
-                        <li>The fee is 0.5% for standard transaction paid with Bitcoin or Ethereum .</li>
-                        <li>The fee is 0.2% for standard transaction paid with the Bundle Token (BND).</li>
-                      </ul>
-                    </li>
-                    <li><b>Determine Transaction Speed &amp; Frequency:</b>
-                      <ul class="">
-                        <li><em>Basic User:</em>
-                          <ul>
-                            <li>No minimum amount deposited</li>
-                            <li>10 transactions per day</li>
-                            <li>5 min waiting time between transactions</li>
-                          </ul>
-                        </li>
-                        <li><em>Pro User:</em>
-                          <ul>
-                            <li>1000 BND deposit</li>
-                            <li>30 transactions per day</li>
-                            <li>0 waiting time between transactions</li>
-                          </ul>
-                        </li>
-                        <li><em>Master User:</em>
-                          <ul>
-                            <li>5000 BND deposit</li>
-                            <li>Unlimited number of transactions</li>
-                            <li>0 waiting time between transactions</li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                  </ol>
-                </div>
-              </div>
-
-              <div class="toggle faq faq-authors">
-                <div class="togglet"><i class="toggle-closed fa fa-usd"></i><i class="toggle-open fa fa-usd"></i>What is the core revenue model?</div>
-                <div class="togglec">
-                  <ul>
-                    <li>The daily trading volume for cryptocurrencies is more than 6 billion dollars per day</li>
-                    <li>Bundle Network aims to have 1% market share at 2018 as the normal case scenerio</li>
-                    <li>Which will yield a USD 60M of daily trading volume</li>
-                    <li>Which will yield a USD 300K revenue per day</li>
-                    <li>Which will yield USD 76M revenue in 2018 (according to platform operational timeline, Q2 onwards)</li>
-                    <li>The revenue will also increase by the expansion of market itself</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="toggle faq faq-authors">
-                <div class="togglet"><i class="toggle-closed fa fa-cogs"></i><i class="toggle-open fa fa-cogs"></i>How does the network function work?</div>
-                <div class="togglec">A Bundle Manager (who can use the platform in order to create their own bundles) may share their successful Bundles with others, on the platform, thereby creating a communication channel for the cryptocurrency ecosystem. They will be ranked by their successful trading and receive commissions via Bundle Tokens based on the usage of their bundles. As a result, the newcomers would see the best performers and benefit from their knowledge and experience while they are making their future purchases</div>
-              </div>
-            </div>
-          </div>
-          <!-- .postcontent end -->
-        </div>
-      </div>
-
-      <!-- Team
-        ============================================= -->
-      <div id="section-team" class="page-section section notopmargin nobottommargin">
-        <div class="container clearfix">
-
-          <div class="row topmargin-sm">
-
-            <div class="heading-block center">
-              <h3>Our Team</h3>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/umut-senol.jpg" alt="Umut Şenol">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Umut Şenol</h4><span>CEO</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Umut has more than 15 years of top-level finance, IT, marketing and HR management experience at multinational giants in the retail, pharma, production and advertising sectors.
-                    He graduated from Bogazici University and Harvard Business School, spent three years at PwC as an experienced team member, two years as CFO of Tchibo (Turkey and Russia), 20 months as CFO of Hopi and two years as chairman of the board at his own outdoor advertising company, Core out of Home.
-									</div>
-                  <a href="https://www.linkedin.com/in/umutsenol/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/ertugrul-yilmaz.jpg" alt="Ertuğrul Yılmaz">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Ertuğrul Yılmaz</h4><span>CTO</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Ertugrul has more than 10 years of cumulative experience in the IT sector.<br/> His career includes management of real-time recommendation engine development teams and implementation of these projects, which were published as case studies on AWS and Google Cloud Platforms.<br />
-                    He has been the leading technology officer at Bundle Network since its inception and is responsible for building a scalable, reliable and resilient aggregator platform.<br />
-                  </div>
-                  <a href="https://www.linkedin.com/in/yilmazertugrul/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/sameer-sait.jpg" alt="Sameer Sait">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Sameer Sait</h4><span>COO</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Sameer leads enterprise security at Arrow Electronics, a Fortune 150 company specializing in distribution and value-added services for electronic components and computer products. His global organization is responsible for IT risk, security operations, identity/access management, eDiscovery, investigations and physical security. Prior to assuming his current position, Sameer led the information security program for MassMutual and all its subsidiaries. He has over 15 years of experience leading global, crossfunctional teams with the majority of his experience in the financial services domain. Sameer is an active angel investor and advisor to a number of security startups. His educational background includes a master’s degree from Carnegie-Mellon University and a bachelor’s degree from the University of Arizona.
-                  </div>
-                  <a href="https://www.linkedin.com/in/sameersait/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/serhat-aydin.jpg" alt="Serhat Aydın">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Serhat Aydın</h4><span>Head of Communication and Legal</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                  After graduating from Bilkent University Political Science department, Serhat worked as a content editor for ChemOrbis Electronic Marketplace. <br />
-                  He spent almost seven years at Frito-Lay & PepsiCo family at different levels up to the accounting manager. <br />
-                  He dealt with more then 10 countries’ accounting operations while he was working as an international accounting manager at retail giant DeFacto. He is currently dealing with communications and legal at Bundle Network.
-                  </div>
-                  <a href="https://www.linkedin.com/in/serhataydin/" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                    <i class="icon-linkedin"></i>
-                    <i class="icon-linkedin"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/nicolai-wessmann.jpg" alt="Carl-Nicolai Wessmann">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>C. Nicolai Wessmann</h4><span>Sales Strategy Leader</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    After more than 6 years working at Schibsted Media Group Oslo as project manager for international operations, Carl founded and became CEO of Spiff, the social saving platform. <br /><br />
-                    He holds a Master’s degree in Business and Economics from BI Norwegian Business School and graduated from Harvard Business School.<br /><br /><br />
-                  </div>
-                  <a href="https://www.linkedin.com/in/carlnicolai/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Advisors
-        ============================================= -->
-      <div id="section-advisors" class="page-section section notopmargin nobottommargin">
-        <div class="container clearfix">
-
-          <div class="row ">
-
-            <div class="heading-block center">
-              <h3>Advisors</h3>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/eddy-travia.jpg" alt="Eddy Travia">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Eddy Travia</h4><span>Strategic Advisor</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Eddy Travia is a pioneer investor in blockchain technology startups and the CEO of Coinsilium, a London-based venture builder, accelerator and investor in early-stage blockchain technology companies. Coinsilium shares have been traded on NEX Exchange in London (NEX:COIN) since December 2015.
-                    Eddy has led early-stage investments in 18 blockchain companies around the world including RSK, Factom, SatoshiPay and Indorse and has advised blockchain companies which have generated more than $500m in token sales via token generation events.
-                  </div>
-                  <a href="https://www.linkedin.com/in/startupeddy/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/gokhan-ogut.jpg" alt="Gökhan Öğüt">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Gökhan Öğüt</h4><span>Marketing Advisor</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Having worked at top level marketing positions for P&amp;G and Danone, Mr Ogut spent an important part of his career at telecommunication giant Vodafone at positions like Chief Marketing Officer, Consumer Unit Vice President and Chief Executive Officer. <br /><br />
-                    He is advising Bundle Network about marketing, communication and general management.<br /><br /><br />
-                  </div>
-                  <a href="https://www.linkedin.com/in/gokhan-ogut-5bb0225/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/mike-costache.jpg" alt="Mike Costache">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Mike Costache</h4><span>Strategic Advisor</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Mike never liked being put in a box so he spent the last 20 years as an entrepreneur, speaker, angel investor and fundraiser for various charities.
-                    Mike is a Managing Partner at KrowdMentor, a strategic investment and advisory firm empowering blockchain startups, funds and entrepreneurs to reach their funding and liquidity goals. Mike is also the founder of the Blockchain Investors Consortium (BIC) and serves on the Advisory Board of TaaS, the first ever tokenized closed-end fund dedicated to investments in blockchain assets.
-                  </div>
-                  <a href="https://www.linkedin.com/in/mikecostache/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/brad-bulent-yasar.jpg" alt="Brad Bulent Yasar">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Brad Bulent Yasar</h4><span>Strategic Advisor</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Brad Yasar is an entrepreneur, investor, mentor, and advisor who started and bootstrapped several companies from inception to maturity over the past 20 years. Currently, Brad is the co-founder and Managing Partner of KrowdMentor, a strategic crowdfunding advisory firm focusing on TGEs, cryptocurrencies, and token powered organizations. As the co-founder for Blockchain Investors Consortium (BIC) with over $2 Billion dollars allocated to blockchain an cryptocurrency projects and has access to extensive dealflow and experience analyzing disruptive
-                  </div>
-                  <a href="https://www.linkedin.com/in/bradyasar/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/neslihan-yucel.jpg" alt="Neslihan Yücel">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Neslihan Yücel</h4><span>Investor Relations</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Neslihan has more than 10 years experience in the finance sector.<br /><br />
-                    She worked as an equity analyst at different investment banks for eight years while she was a Vice President for Investor Relations at Akbank until May 2017. She holds a Master’s degree in Economics from Istanbul University.<br /><br />
-                    She is advising Bundle Network about investor relations.
-                  </div>
-                  <a href="https://www.linkedin.com/in/neslihan-yücel-35410724/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/henrik-jorgensen.jpg" alt="Henrik Jørgensen">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Henrik Jørgensen</h4><span>Europe Expansion Leader</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Henrik Jørgensen has more than 20 years of experience as a management consultant with extensive international experience from working in Europe and North America overseeing development and implementation of business-critical projects, often with significant IT and technology content. He has worked extensively for organizations with a large number of stakeholders – both private and public.
-                    Henrik holds a MSc, PLDA (Harvard Business School), been visiting researcher at MIT (Leaders for Manufacturing), and has attended specialist courses at Oxford University - Templeton College, IESE, Barcelona, Erasmus Rotterdam, and UW-Madison.
-                  </div>
-                  <a href="https://www.linkedin.com/in/henrikj1/" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                    <i class="icon-linkedin"></i>
-                    <i class="icon-linkedin"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/mohammad-khan.jpg" alt="Mohammad Shaheed Khan">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Mohammad S. Khan</h4><span>Strategic Advisor</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Mohammad is a fintech enthusiast and advisor with over 17 years of notable track record in the banking and finance sector. He is a serial Intrapreneur, having launched businesses in multiple jurisdictions. Currently he spearheads penetration of  Islamic Banking services at a foriegn bank in Bahrain. He is also the Vice Chairman of Bahrain Association of Banks and advisor to the World Congress of Muslim Philanthropists.  He advises a number of blockchain initiatives. He attended the Massachusetts Institute of Technology’s Fintech training and is a graduate of the Harvard Business School. He is the President (Bahrain) and Board member of the Harvard Business School Club of GCC. Mohammad has been ranked as one of the 500 influencer and shaper that make up the global Islamic economy.
-                  </div>
-                  <a href="https://www.linkedin.com/in/mshaheedkhan/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-										<i class="icon-linkedin"></i>
-										<i class="icon-linkedin"></i>
-									</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/vladimir-diakov.jpg" alt="Vladimir Diakov">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Vladimir Diakov</h4><span>CIS expansion leader </span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Vladimir has 20+ years experience in Banking and Finance, including top positions in Russian Banks (Vice-President, Director for Asset Protection, National Bank “TRUST”) and family offices.<br /><br />
-                    He is a founder of <a href="http://cryptodetectives.ru" target="_blank" rel="nofollow">Cryptodetectives.ru</a> project, and well-known specialist in the field of due-diligence, compliance and asset protection.
-                  </div>
-                  <a href="https://www.linkedin.com/in/henrikj1/" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                    <i class="icon-linkedin"></i>
-                    <i class="icon-linkedin"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/luis-cascao.jpg" alt="Luis Cascão Pereira">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Luis Cascão Pereira, <strong style="text-transform:  capitalize;">Ph.D.</strong></h4><span>Americas Expansion Leader</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Luis brings more than 15 years of experience in technology with a proven track record of moving innovation to commercialization, most notably in biotechnology.  He has worked in startups and is currently at a Fortune 100 company where he is responsible for management of global, cross-functional R&D teams, product development, partnering, intellectual property, and regulatory compliance.  He has deep expertise in artificial enzyme evolution covered by 15 granted US patents.  Luis is an angel investor and adviser to FinTech, crowdfunding, and Blockchain companies and is based in Silicon Valley.
-                    He graduated from Harvard Business School, has a Ph.D. from the University of California at Berkeley, and a B.S. from the École Polytechnique Fédérale de Lausanne.
-                  </div>
-                  <a href="https://www.linkedin.com/in/luiscascao/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                    <i class="icon-linkedin"></i>
-                    <i class="icon-linkedin"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/burak-akdag.jpg" alt="Burak Akdag">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Burak Akdag</h4><span>Strategic Advisor</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    Burak Akdag graduated from Bilkent University of Industrial Engineering and received his Strategic Marketing and Brand Management MBA from Bahcesehir University. <br />
-                    His professional career includes tenure at global brands like Hyundai and Pepsico at managerial levels.<br />
-                    He works as Strategy Manager at a retail application company, which has a digital currency for retail business and has more than 5 million members in Turkey.<br />
-                  </div>
-                  <a href="https://www.linkedin.com/in/burak-akdağ-69160622/" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                    <i class="icon-linkedin"></i>
-                    <i class="icon-linkedin"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 bottommargin">
-              <div class="team">
-                <div class="team-image" style="text-align: center; background: #fff; padding: 5% 15%">
-                  <img src="images/team/hasan-saglam.jpg" alt="Hasan Sağlam">
-                </div>
-                <div class="team-desc team-desc-bg">
-                  <div class="team-title"><h4>Hasan Sağlam</h4><span>Financial Advisor</span></div>
-                  <div class="team-content" style="text-align:justify;font-size:13px;margin:0 15px;">
-                    After graduating from Bilkent University Industrial Engineering, Hasan worked at Merck &amp; Co for two years as pricing and financial treasury analyst. <br />His next stop was an FP&amp;A Manager position at Pepsico which included South East Europe Region duties which included almost 11 countries. <br />
-                    Along with his current duty as the FP&amp;A Manager at Hopi he is intensely involved with Bundle project development and pricing strategies.<br />
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Partners &amp; Investors
-        ============================================= -->
-      <div id="section-partners" class="page-section section notopmargin nobottommargin">
-        <div class="heading-block center">
-          <h3>Partners</h3>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3 hide-xs notopmargin nobottommargin"></div>
-          <div class="col-md-6 col-sm-12 notopmargin nobottommargin">
-            <ul class="clients-grid grid-3 clearfix">
-              <li><a href="http://www.coinsilium.com" target="_blank"><img src="images/clients/coinsilium.png" alt="Coinsilium"></a></li>
-              <li><a href="http://www.krowdmentor.com" target="_blank"><img src="images/clients/krowd-mentor.png" alt="Krowd Mentor"></a></li>
-              <li><a href="https://startuptoken.com" target="_blank"><img src="images/clients/startup-token.png" alt="Startup Token"></a></li>
-              <li><a href="http://www.rdc.com.tr" target="_blank"><img src="images/clients/rdc-partner.png" alt="RDC Partner"></a></li>
-              <li><a href="https://cryptovalley.swiss" target="_blank"><img src="images/clients/crytpto-valley.png" alt="Clients"></a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 hide-xs notopmargin nobottommargin"></div>
-        </div>
-      </div>
-
-      <!-- Events
-        ============================================= -->
-      <div id="section-events-press" class="page-section section notopmargin nobottommargin">
-        <div class="container clear-bottommargin clearfix">
-
-          <div class="row clearfix">
-            <div class="heading-block center">
-              <h3>Events</h3>
-              <span>Stay in Touch with the Latest Events</span>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="https://icosummit.ch/zurich-2017/"><img src="images/events/1.png" alt="Blockchain and ICO Summit"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Zurich</span>
-                  <div class="entry-title">
-                    <h3><a href="https://icosummit.ch/zurich-2017/">Blockchain and ICO Summit</a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 14th September</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="https://icosummit.ch/zurich-2017/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="http://d10e.biz/kyiv-2017/"><img src="images/events/2.png" alt="D10e - Kyiv"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Kiev</span>
-                  <div class="entry-title">
-                    <h3><a href="http://d10e.biz/kyiv-2017/">D10e - Kyiv</a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 18th September</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="http://d10e.biz/kyiv-2017/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="http://www.blockchainsummit.xyz/"><img src="images/events/3.png" alt="BU Blockchain Summit XYZ"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Istanbul</span>
-                  <div class="entry-title">
-                    <h3><a href="http://www.blockchainsummit.xyz/">BU Blockchain Summit XYZ</a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 5th October</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="http://www.blockchainsummit.xyz/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="#"><img src="images/events/4.png" alt="Bitcoin and Blockchain - Hype or Disruption"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Bharain</span>
-                  <div class="entry-title">
-                    <h3><a href="#">Bitcoin and Blockchain - Hype or Disruption </a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 15th October</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="#" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="https://www.koophub.com/en/i/events/?eventtitle=blockchain-ve-ico-fest-17&eventid=12"><img src="images/events/5.png" alt="Koop Blockcahin &amp; ICO fest"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">İstanbul</span>
-                  <div class="entry-title">
-                    <h3><a href="https://www.koophub.com/en/i/events/?eventtitle=blockchain-ve-ico-fest-17&eventid=12">Koop Blockcahin &amp; ICO fest </a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 29th October</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="https://www.koophub.com/en/i/events/?eventtitle=blockchain-ve-ico-fest-17&eventid=12" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="http://www.pldsummit.com/"><img src="images/events/6.png" alt="Harvard Business School PLD summit"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Dubai</span>
-                  <div class="entry-title">
-                    <h3><a href="http://www.pldsummit.com/">Harvard Business School PLD summit </a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 26th October</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="http://www.pldsummit.com/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="http://d10e.biz/gibraltar-2017/"><img src="images/events/7.png" alt="D10e - Revolutionary Sponsor"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Gibraltar</span>
-                  <div class="entry-title">
-                    <h3><a href="http://d10e.biz/gibraltar-2017/">D10e - Revolutionary Sponsor </a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 1st November</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="http://d10e.biz/gibraltar-2017/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="http://www.blockchaincompetition.ch/summit/"><img src="images/events/8.png" alt="Blockchain Summit Crypto Valley"></a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Zuch/Switzerland</span>
-                  <div class="entry-title">
-                    <h3><a href="http://www.blockchaincompetition.ch/summit/">Blockchain Summit Crypto Valley </a></h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li><i class="icon-calendar3"></i> 22nd November</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="http://www.blockchaincompetition.ch/summit/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="https://www.unlock-bc.com/events/unlock/2018/about">
-                      <img src="images/events/13.jpg" alt="Unlock Blockchain">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Dubai</span>
-                  <div class="entry-title">
-                    <h3>
-                      <a href="https://www.unlock-bc.com/events/unlock/2018/about">Unlock Blockchain </a>
-                    </h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li>
-                      <i class="icon-calendar3"></i> 14th January</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="https://www.unlock-bc.com/events/unlock/2018/about" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="http://d10e.biz/silicon-valley-2018/">
-                      <img src="images/events/14.png" alt="d10e Silicon Valley">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Silicon Valley</span>
-                  <div class="entry-title">
-                    <h3>
-                      <a href="http://d10e.biz/silicon-valley-2018/">d10e Silicon Valley </a>
-                    </h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li>
-                      <i class="icon-calendar3"></i> 15th - 18th February</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="http://d10e.biz/silicon-valley-2018/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="https://koophub.com/blockchain-meetup-series-4/">
-                      <img src="images/events/16.png" alt="BLOCKCHAIN MEETUP SERIES #4">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Istanbul </span>
-                  <div class="entry-title">
-                    <h3>
-                      <a href="https://koophub.com/blockchain-meetup-series-4/">BLOCKCHAIN MEETUP SERIES #4 </a>
-                    </h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li>
-                      <i class="icon-calendar3"></i> 22nd February</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="https://koophub.com/blockchain-meetup-series-4/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="ipost col-sm-6 bottommargin clearfix">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="entry-image nobottommargin">
-                    <a href="http://d10e.biz/seoul-2018/">
-                      <img src="images/events/15.png" alt="d10e Seul, South Korea">
-                    </a>
-                  </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 20px;">
-                  <span class="before-heading">Seul</span>
-                  <div class="entry-title">
-                    <h3>
-                      <a href="http://d10e.biz/seoul-2018/">d10e Seul, South Korea </a>
-                    </h3>
-                  </div>
-                  <ul class="entry-meta clearfix">
-                    <li>
-                      <i class="icon-calendar3"></i> 3rd - 6th March</li>
-                  </ul>
-                  <div class="entry-content">
-                    <a href="http://d10e.biz/seoul-2018/" class="more-link">Event Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row clearfix">
-            <h4 class="uppercase center">What <span>Social Media</span> say about us?</h4>
-
-            <div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
-              <div class="flexslider">
-                <div class="slider-wrap">
-                  <div class="slide">
-                    <div class="testi-image">
-                      <a href="https://youtu.be/2lrcBoipwZw?t=447" data-lightbox="iframe">
-      									<img src="images/press/koop-ico-fest-17.png" alt="Potential of ICOs in Turkey Panel">
-      									</a>
-                    </div>
-                    <div class="testi-content">
-                      <p><a href="https://youtu.be/2lrcBoipwZw?t=447" data-lightbox="iframe">Potential of ICOs in Turkey Panel</a></p>
-                      <div class="testi-meta">
-                        BLOCKCHAIN &amp; ICO FEST'17
-                        <span>October 29, 2017</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="slide">
-                    <div class="testi-image">
-                      <a href="https://cryptostreet.co/hottest-icos-d10e-gibraltar/" target="_blank"><img src="images/press/cryptostreet.co.jpg" alt="CryptoStreeton"></a>
-                    </div>
-                    <div class="testi-content">
-                      <p><a href="https://cryptostreet.co/hottest-icos-d10e-gibraltar/" target="_blank">What were the Hottest ICOs from D10e Gibraltar?</a></p>
-                      <div class="testi-meta">
-                        by CryptoStreeton
-                        <span>November 6, 2017</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Timline
-        ============================================= -->
-      <div id="section-timeline" class="page-section section notopmargin footer-stick">
-        <div class="container">
-          <div class="heading-block center">
-            <h3>Timeline</h3>
-          </div>
-          <div class="timeline-centered">
-            <article class="timeline-entry">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon">
-                  <i class="entypo-feather">2017<br />Q4</i>
-                </div>
-
-                <div class="timeline-label">
-                  <h2>Private Sale has started</h2>
-                </div>
-              </div>
-            </article>
-
-            <article class="timeline-entry left-aligned">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon">
-                  <i class="entypo-suitcase">2018<br />Q1</i>
-                </div>
-
-                <div class="timeline-label">
-                  <h2>Alpha Version will launch</h2>
-                </div>
-              </div>
-            </article>
-
-            <article class="timeline-entry">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon">
-                  <i class="entypo-suitcase">2018<br />Q1/Q2</i>
-                </div>
-
-                <div class="timeline-label">
-                  <h2>Token Generation Event</h2>
-                </div>
-              </div>
-            </article>
-
-            <article class="timeline-entry left-aligned">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon">
-                  <i class="entypo-suitcase">2018<br />Q3</i>
-                </div>
-
-                <div class="timeline-label">
-                  <h2>Bundle Network Platform will launch</h2>
-                </div>
-              </div>
-            </article>
-
-            <article class="timeline-entry begin">
-              <div class="timeline-entry-inner">
-                <div class="timeline-icon">
-                  <i class="entypo-suitcase">2018<br />Q3</i>
-                </div>
-
-                <div class="timeline-label">
-                  <h2>Cash Integration on the platform</h2>
-                </div>
-              </div>
-            </article>
-
-          </div>
-        </div>
-      </div>
-  </div>
-  </div>
-  </div>
-  </section>
-  <!-- #content end -->
-
-  <!-- Footer
-	  ============================================= -->
-  <footer id="footer" class="dark">
-    <!-- Copyrights
-  		============================================= -->
-    <div id="copyrights">
-      <div class="container clearfix">
-        <div class="col_half">
-          <img src="images/footer-bundle_logo.png" alt="" class="footer-logo"> Copyrights © 2017 All Rights Reserved by Bundle Network LLC.
-        </div>
-
-        <div class="col_half col_last tright">
-          <div class="footer-big-contacts">
-						<span style="color: rgb(136, 136, 136);font-size:13px;">Send an Email:</span>
-						<a style="cursor:pointer;" href="mailto:info@bundle.network">info@bundle.network</a>
+			<div class="row roadmap-list align-items-end animated" data-animate="fadeInUp" data-delay="0">
+				<div class="col-lg">
+					<div class="single-roadmap roadmap-sm roadmap-done">
+						<h6>2017 Q4</h6>
+						<p>Demo Development Complete.</p>
 					</div>
-          <div class="copyrights-menu copyright-links fright clearfix one-page-menu">
-            <a href="#" data-href="#section-the-problem">The Problem</a>/<a href="#" data-href="#section-the-solution">The Solution</a>/<a href="#" data-href="#section-the-token">Token</a>/<a href="#">FAQs</a>/<a href="#" data-href="#section-team">Team</a>/<a href="#" data-href="#section-advisors">Advisors</a>/<a href="#" data-href="#section-partners">Partners</a>
-          </div>
-          <div class="fright clearfix">
-            <a href="https://www.facebook.com/bundlenetwork/" class="social-icon si-rounded si-small si-colored si-facebook">
-  							<i class="icon-facebook"></i>
-  							<i class="icon-facebook"></i>
-  						</a>
+				</div><!-- .col  -->
+				<div class="col-lg width-0">
+					<div class="single-roadmap roadmap-down roadmap-done">
+						<h6>2018 Q1</h6>
+						<p>Start Private Sale.</p>
+					</div>
+				</div><!-- .col  -->
+				<div class="col-lg">
+					<div class="single-roadmap roadmap-lg">
+						<h6>2018 April</h6>
+						<p>Asia Roadshow</p>
+					</div>
+				</div><!-- .col  -->
+				<div class="col-lg width-0">
+					<div class="single-roadmap roadmap-down">
+						<h6>2018 May</h6>
+						<p>USA Roadshow</p>
+					</div>
+				</div><!-- .col  -->
+				<div class="col-lg">
+					<div class="single-roadmap roadmap-sm">
+						<h6>2018 June</h6>
+						<p>Start TGE</p>
+					</div>
+				</div><!-- .col  -->
+				<div class="col-lg width-0">
+					<div class="single-roadmap roadmap-down">
+						<h6>2018 August</h6>
+						<p>London Office</p>
+					</div>
+				</div><!-- .col  -->
+									<div class="col-lg">
+										<div class="single-roadmap roadmap-lg">
+											<h6>2018 Q4</h6>
+											<p>V1.0, 8 - 10 Exchange Connection, Buy / Sell pre-arranged Bundles</p>
+										</div>
+									</div><!-- .col  -->
+									<div class="col-lg width-0">
+										<div class="single-roadmap roadmap-down">
+											<h6>2019 Q1</h6>
+											<p>V2.0, 10 - 15 Exchange Connection, Fiat currency exception, Customize Bundle option</p>
+										</div>
+									</div><!-- .col  -->
+									<div class="col-lg">
+										<div class="single-roadmap roadmap-sm">
+											<h6>2019 Q2</h6>
+											<p>V3.0, 15 – 25 Exchange Connection, Network + Room Property</p>
+										</div>
+									</div><!-- .col  -->
+									<div class="col-lg width-0">
+										<div class="single-roadmap roadmap-down">
+											<h6>2019 Q3</h6>
+											<p>V4.0, 25 + Exchange Connection & ICO Bundle option</p>
+										</div>
+									</div><!-- .col  -->
 
-            <a href="https://twitter.com/bundleofficial" class="social-icon si-rounded si-small si-colored si-twitter">
-  							<i class="icon-twitter"></i>
-  							<i class="icon-twitter"></i>
-  						</a>
 
-            <a href="https://www.linkedin.com/company/18239884/" class="social-icon si-rounded si-small si-colored si-linkedin">
-  							<i class="icon-linkedin"></i>
-  							<i class="icon-linkedin"></i>
-  						</a>
+			</div><!-- .row  -->
+		</div><!-- .container  -->
+	</div>
+	<!-- Start Section -->
 
-            <a href="https://www.youtube.com/channel/UCIByKOxR5cxBTuD99mYenWA/about" class="social-icon si-rounded si-small si-colored si-youtube">
-  							<i class="icon-youtube"></i>
-  							<i class="icon-youtube"></i>
-  						</a>
 
-            <a href="https://www.reddit.com/r/AskReddit/comments/7cgrz9/bundlenetwork/" class="social-icon si-rounded si-small si-colored si-reddit">
-  							<i class="icon-reddit"></i>
-  							<i class="icon-reddit"></i>
-  						</a>
+	<!-- Start Section -->
+	<div class="section section-pad section-bg-dark blog-section" id="blogs">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col">
+					<div class="section-head">
+						<h2 class="section-title animated" data-animate="fadeInUp" data-delay="0">Events
+							<span>Events</span>
+						</h2>
+					</div>
+				</div>
+			</div><!-- .row -->
+			<div class="blog-list">
+				<div class="row">
+		<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																								<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																									<div class="blog-photo"><a href="http://d10e.biz/seoul-2018/"><img src="bundleassets/events/event-seul.png" alt="Seul" target="_out"></a></div>
+																									<div class="blog-texts">
+																										<ul class="blog-meta">
+																											<li><a href="#">03 - 06 Mar, 2018</a></li>
+																											<li><a href="#">Seul</a></li>
+																										</ul>
+																										<h5 class="blog-title"><a href="http://d10e.biz/seoul-2018/" target="_out">d10e Seul<br> South Korea</a></h5>
+																										<p><a href="http://d10e.biz/seoul-2018/" target="_out">Event Details</a></p>
+																									</div>
+																								</div>
+					</div><!-- .col -->
+							<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																													<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																														<div class="blog-photo"><a href="https://koophub.com/blockchain-meetup-series-4/"><img src="bundleassets/events/event-istanbul-3.png" alt="Istanbul" target="_out"></a></div>
+																														<div class="blog-texts">
+																															<ul class="blog-meta">
+																																<li><a href="#">22 Feb, 2018</a></li>
+																																<li><a href="#">Istanbul</a></li>
+																															</ul>
+																															<h5 class="blog-title"><a href="https://koophub.com/blockchain-meetup-series-4/" target="_out">Blockchain Meetup Series <br>#4</a></h5>
+																															<p><a href="https://koophub.com/blockchain-meetup-series-4/" target="_out">Event Details</a></p>
+																														</div>
+																													</div>
+					</div><!-- .col -->
+							<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																													<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																														<div class="blog-photo"><a href="http://d10e.biz/silicon-valley-2018/"><img src="bundleassets/events/event-silicon-valley.png" alt="Silicon Valley" target="_out"></a></div>
+																														<div class="blog-texts">
+																															<ul class="blog-meta">
+																																<li><a href="#">15 - 18 Feb, 2018</a></li>
+																																<li><a href="#">Silicon Valley</a></li>
+																															</ul>
+																															<h5 class="blog-title"><a href="http://d10e.biz/silicon-valley-2018/" target="_out">d10e <br>Silicon Valley</a></h5>
+																															<p><a href="http://d10e.biz/silicon-valley-2018/" target="_out">Event Details</a></p>
+																														</div>
+																													</div>
+					</div><!-- .col -->
+				<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																								<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																									<div class="blog-photo"><a href="https://www.unlock-bc.com/events/unlock/2018/about"><img src="bundleassets/events/event-dubai-2.jpg" alt="Dubai" target="_out"></a></div>
+																									<div class="blog-texts">
+																										<ul class="blog-meta">
+																											<li><a href="#">14 Jan, 2018</a></li>
+																											<li><a href="#">Dubai</a></li>
+																										</ul>
+																										<h5 class="blog-title"><a href="https://www.unlock-bc.com/events/unlock/2018/about" target="_out">Unlock<br> Blockchain</a></h5>
+																										<p><a href="https://www.unlock-bc.com/events/unlock/2018/about" target="_out">Event Details</a></p>
+																									</div>
+																								</div>
+					</div><!-- .col -->
+					<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																									<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																										<div class="blog-photo"><a href="https://blockchaincompetition.ch/summit"><img src="bundleassets/events/event-zuch.png" alt="Istanbul" target="_out"></a></div>
+																										<div class="blog-texts">
+																											<ul class="blog-meta">
+																												<li><a href="#">22 Nov, 2017</a></li>
+																												<li><a href="#">Zuch, Switzerland</a></li>
+																											</ul>
+																											<h5 class="blog-title"><a href="https://blockchaincompetition.ch/summit" target="_out">Blockchain Summit<br> Crypto Valley</a></h5>
+																											<p><a href="https://blockchaincompetition.ch/summit" target="_out">Event Details</a></p>
+																										</div>
+																									</div>
+					</div><!-- .col -->
+					<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																									<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																										<div class="blog-photo"><a href="http://d10e.biz/gibraltar-2017/"><img src="bundleassets/events/event-gibraltar.png" alt="Gibraltar" target="_out"></a></div>
+																										<div class="blog-texts">
+																											<ul class="blog-meta">
+																												<li><a href="#">01 Nov, 2017</a></li>
+																												<li><a href="#">Gibraltar</a></li>
+																											</ul>
+																											<h5 class="blog-title"><a href="http://d10e.biz/gibraltar-2017/" target="_out">D10e <br>Revolutionary Sponsor</a></h5>
+																											<p><a href="http://d10e.biz/gibraltar-2017/" target="_out">Event Details</a></p>
+																										</div>
+																									</div>
+					</div><!-- .col -->
 
-            <!-- <a href="#" class="social-icon si-rounded si-small si-colored si-whatsapp">
-  							<i class="fa fa-whatsapp" style="height:30px;line-height:30px;"></i>
-  							<i class="fa fa-whatsapp" style="height:30px;line-height:30px;"></i>
-  						</a> -->
+																			<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																				<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																					<div class="blog-photo"><a href="http://events.test.koophub.com/event/blockchain-ico-fest-17/"><img src="bundleassets/events/event-istanbul-2.png" alt="Istanbul" target="_out"></a></div>
+																					<div class="blog-texts">
+																						<ul class="blog-meta">
+																							<li><a href="#">29 Oct, 2017</a></li>
+																							<li><a href="#">Istanbul</a></li>
+																						</ul>
+																						<h5 class="blog-title"><a href="http://events.test.koophub.com/event/blockchain-ico-fest-17/" target="_out">Koop Blockchain & <br>ICO fest</a></h5>
+																						<p><a href="http://events.test.koophub.com/event/blockchain-ico-fest-17/" target="_out">Event Details</a></p>
+																					</div>
+																				</div>
+					</div><!-- .col -->
+										<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+											<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+												<div class="blog-photo"><a href="http://www.pldsummit.com/"><img src="bundleassets/events/event-dubai.png" alt="Dubai" target="_out"></a></div>
+												<div class="blog-texts">
+													<ul class="blog-meta">
+														<li><a href="#">26 Oct, 2017</a></li>
+														<li><a href="#">Dubai</a></li>
+													</ul>
+													<h5 class="blog-title"><a href="http://www.pldsummit.com/" target="_out">Harvard Business School<br>PLD summit</a></h5>
+													<p><a href="http://www.pldsummit.com/" target="_out">Event Details</a></p>
+												</div>
+											</div>
+					</div><!-- .col -->
 
-            <a href="https://t.me/bundlenetworkcommunity" class="social-icon si-rounded si-small si-colored si-telegram">
-  							<i class="fa fa-telegram" style="height:30px;line-height:30px;"></i>
-  							<i class="fa fa-telegram" style="height:30px;line-height:30px;"></i>
-  						</a>
+															<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+																<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+																	<div class="blog-photo"><a href="#"><img src="bundleassets/events/event-bharain.png" alt="Zurich" target="_out"></a></div>
+																	<div class="blog-texts">
+																		<ul class="blog-meta">
+																			<li><a href="#">15 Oct, 2017</a></li>
+																			<li><a href="#">Bharain</a></li>
+																		</ul>
+																		<h5 class="blog-title"><a href="#" target="_out">Bitcoin and Blockchain<br>Hype or Disruption</a></h5>
+																		<p>&nbsp;</p>
+																	</div>
+																</div>
+					</div><!-- .col -->
+					<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+						<div class="blog-item animated" data-animate="fadeInUp" data-delay=".2">
+							<div class="blog-photo"><a href="http://www.blockchainsummit.xyz/"><img src="bundleassets/events/event-istanbul.png" alt="blog-photo"></a></div>
+							<div class="blog-texts">
+								<ul class="blog-meta">
+									<li><a href="#">05 Oct, 2017</a></li>
+									<li><a href="#">Istanbul</a></li>
+								</ul>
+								<h5 class="blog-title"><a href="http://www.blockchainsummit.xyz/">BU Blockchain Summit <br>XYZ</a></h5>
+								<p><a href="http://www.blockchainsummit.xyz/" target="_out">Event Details</a></p>
+							</div>
+						</div>
+					</div><!-- .col -->
+										<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+											<div class="blog-item animated" data-animate="fadeInUp" data-delay=".1">
+												<div class="blog-photo"><a href="http://d10e.biz/kyiv-2017/"><img src="bundleassets/events/event-kiev.png" alt="Kyiv"></a></div>
+												<div class="blog-texts">
+													<ul class="blog-meta">
+														<li><a href="#">18 Sep, 2017</a></li>
+														<li><a href="#">Kyiv</a></li>
+													</ul>
+													<h5 class="blog-title"><a href="http://d10e.biz/kyiv-2017/">Pros &amp; Cons of <br>Premined Cryptocurrencies</a></h5>
+													<p><a href="http://d10e.biz/kyiv-2017/" target="_out">Event Details</a></p>
+												</div>
+											</div>
+										</div><!-- .col -->
+										<div class="col-lg-4 offset-lg-0 col-sm-8 offset-sm-2">
+											<div class="blog-item animated" data-animate="fadeInUp" data-delay="0">
+												<div class="blog-photo"><a href="https://icosummit.ch/zurich-2017/"><img src="bundleassets/events/event-zurich.png" alt="Zurich" target="_out"></a></div>
+												<div class="blog-texts">
+													<ul class="blog-meta">
+														<li><a href="#">14 Sep, 2017</a></li>
+														<li><a href="#">Zurich</a></li>
+													</ul>
+													<h5 class="blog-title"><a href="https://icosummit.ch/zurich-2017/" target="_out">D10e<br>ICO Summit</a></h5>
+													<p><a href="https://icosummit.ch/zurich-2017/" target="_out">Event Details</a></p>
+												</div>
+											</div>
+					</div><!-- .col -->
 
-            <a href="https://github.com/bundle-network" class="social-icon si-rounded si-small si-colored si-github">
-  							<i class="icon-github"></i>
-  							<i class="icon-github"></i>
-  						</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- #copyrights end -->
-  </footer>
-  </div>
-  <!-- #wrapper end -->
 
-  <!-- Go To Top
-============================================= -->
-  <div id="gotoTop" class="icon-angle-up"></div>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109923601-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag('js', new Date());
 
-gtag('config', 'UA-109923601-1');
-</script>
 
-  <!-- External JavaScripts
-============================================= -->
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/plugins.js"></script>
+				</div><!-- .row -->
+			</div><!-- .blog-list -->
+			<div class="row text-center">
+				<div class="col-md-12">
+					<!--<a href="blog-archive-light.html" class="btn btn-more">Read All News <em class="ti ti-angle-right"></em></a>-->
+				</div>
+			</div>
+		</div><!-- .container -->
+	</div>
+	<!-- Start Section -->
 
-  <script type="text/javascript" src="js/RGraph.common.core.js" ></script>
-  <script type="text/javascript" src="js/RGraph.pie.js"></script>
-  <script type="text/javascript" src="js/token.chart.js"></script>
 
-  <!-- Footer Scripts
-============================================= -->
-  <script type="text/javascript" src="js/functions.js"></script>
-  <script type="text/javascript">
-  jQuery(document).ready(function($) {
-  var $faqItems = $('#faqs .faq');
-  if (window.location.hash != '') {
-    var getFaqFilterHash = window.location.hash;
-    var hashFaqFilter = getFaqFilterHash.split('#');
-    if ($faqItems.hasClass(hashFaqFilter[1])) {
-      $('#portfolio-filter li').removeClass('activeFilter');
-      $('[data-filter=".' + hashFaqFilter[1] + '"]')
-        .parent('li')
-        .addClass('activeFilter');
-      var hashFaqSelector = '.' + hashFaqFilter[1];
-      $faqItems.css('display', 'none');
-      if (hashFaqSelector != 'all') {
-        $(hashFaqSelector).fadeIn(500);
-      } else {
-        $faqItems.fadeIn(500);
-      }
-    }
-  }
 
-  $('#portfolio-filter a').click(function() {
-    $('#portfolio-filter li').removeClass('activeFilter');
-    $(this)
-      .parent('li')
-      .addClass('activeFilter');
-    var faqSelector = $(this).attr('data-filter');
-    $faqItems.css('display', 'none');
-    if (faqSelector != 'all') {
-      $(faqSelector).fadeIn(500);
-    } else {
-      $faqItems.fadeIn(500);
-    }
-    return false;
-  });
-});
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-818003132"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag('js', new Date());
 
-gtag('config', 'AW-818003132');
-</script>
-<script>
-gtag('event', 'conversion', { send_to: 'AW-818003132/7I7LCNWpgHwQvPmGhgM' });
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-<noscript><img height=1 width=1 border=0 src="//www.googleadservices.com/pagead/conversion/818003132/?label=AW-818003132/7I7LCNWpgHwQvPmGhgM&amp;guid=ON&amp;script=0"></noscript>
+
+	<!-- Start Section -->
+	<div class="section subscribe-section section-pad-md section-bg section-connect">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-6 offset-md-3">
+					<h4 class="section-title-md animated" data-animate="fadeInUp" data-delay="0">Don't miss out, Stay updated</h4>
+					<form id="subscribe-form" action="https://network.us17.list-manage.com/subscribe/post?u=407b15925ff3528bb5cc1c264&id=d43e7239ab" method="post" class="subscription-form inline-form" novalidate="novalidate">
+						<input type="text" name="EMAIL" class="input-round required email" placeholder="Enter your email address" >
+						<input type="text" class="d-none" name="form-anti-honeypot" value="">
+						<button type="submit" class="btn btn-plane">Subscribe</button>
+						<div class="subscribe-results"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Section -->
+
+
+	<!-- Start Section -->
+	<div class="section footer-scetion no-pt section-pad-sm section-bg">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<ul class="social">
+						<li class="animated" data-animate="fadeInUp" data-delay="0"><a href="https://www.facebook.com/bundlenetwork/" target="_out"><em class="fa fa-facebook"></em></a></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".1"><a href="https://twitter.com/bundleofficial"  target="_out"><em class="fa fa-twitter"></em></a></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".2"><a href="https://www.youtube.com/channel/UCIByKOxR5cxBTuD99mYenWA/about"  target="_out"><em class="fa fa-youtube-play"></em></a></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".3"><a href="https://github.com/bundle-network"  target="_out"><em class="fa fa-github"></em></a></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="https://www.linkedin.com/company/bundle-network/"  target="_out"><img src="bundleassets/icon-linkedin.png"></a></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="https://www.reddit.com/r/AskReddit/comments/7cgrz9/bundlenetwork/"  target="_out"><img src="bundleassets/icon-reddit.png"></a></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".6"><a href="https://t.me/bundlenetworkcommunity"><img src="bundleassets/icon-telegram.png"  target="_out"></a></li>
+						<!--<li class="animated" data-animate="fadeInUp" data-delay=".4"><a href="#"><em class="fa fa-bitcoin"></em></a></li>
+						<li class="animated" data-animate="fadeInUp" data-delay=".5"><a href="#"><em class="fa fa-medium"></em></a></li>-->
+					</ul>
+					<span class="copyright-text animated" data-animate="fadeInUp" data-delay=".3">
+						Copyrights © 2018 All Rights Reserved by Bundle Network LLC.
+						<span>All trademarks and copyrights belong to their respective owners.</span>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Section -->
+
+	<!-- Preloader !remove please if you do not want -->
+	<div id="preloader">
+		<div id="loader"></div>
+		<div class="loader-section loader-top"></div>
+   		<div class="loader-section loader-bottom"></div>
+	</div>
+	<!-- Preloader End -->
+
+	<!-- JavaScript (include all script here) -->
+	<script src="assets/js/jquery.bundle.js?ver=111"></script>
+	<script src="assets/js/script.js?ver=111"></script>
 
 </body>
-
 </html>

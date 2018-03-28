@@ -1,0 +1,32 @@
+
+.site-header .scroll-down { color: #0751c4; }
+.site-header .scroll-down:after { background: #0751c4; } 
+
+/* .card { width: 16rem; }  */
+
+.nav-tabs {  margin-bottom: 15px;  }
+/* .tab-pane .marketing { height: 500px; }  */
+
+.partner-list-s2 { width: 70%; } 
+.partner-list-s2 li { width: 10%; } 
+
+/* li { background: green; }	*/ 
+.alternatecolors li:nth-child(odd) { background: #ececec; }
+.withborder tr { border: 1px solid rgba(0,0,0,.125); } 
+
+.header-partners li img { width: 100px; } 
+
+.chartimg { text-align: center; }
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)
+{ 
+.header-partners { margin-top: 1px; } 
+.partner-list-s2 { width: 100%; } 
+
+} 
+
+@media only screen and (max-width: 767px) 
+{
+.partner-list-s2 { margin-top: -80px; width: 100%; } 
+
+}
