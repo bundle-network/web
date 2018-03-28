@@ -21,28 +21,7 @@
 </head>
 
 <body class="theme-light is-smooth-effect" data-spy="scroll" data-target="#mainnav" data-offset="80">
-<!-- jQuery FIRST i.e. before qTip (and all other scripts too usually) -->
-<script type="text/javascript" src="bundleassets/js/jquery-3.3.1.min.js"></script>
 
-<!-- Include either the minifed or production version, NOT both!! -->
-<script type="text/javascript" src="bundleassets/js/jquery.qtip.min.js"></script>
-
-<!-- Optional: imagesLoaded script to better support images inside your tooltips -->
-<script type="text/javascript" src="bundleassets/js/imagesloaded.pkgd.min.js"></script>
-
-<script>
-$( document ).ready(function() {
-
-$('.nav-tabs a[href="#tabtokensale"]').tab('show')
-
-$('im1').qtip({ // Grab some elements to apply the tooltip to
-    content: {
-        text: 'My common piece of text here'
-    }
-});
-});
-
-</script>
 
 	<!-- Header -->
 	<header class="site-header is-sticky">
@@ -2002,16 +1981,13 @@ asset trading.</p><p>Bundle Network aims to provide support for the burgeoning a
 	<!-- Start Section -->
 
 
-
-
-
 	<!-- Start Section -->
 	<div class="section subscribe-section section-pad-md section-bg section-connect">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-6 offset-md-3">
 					<h4 class="section-title-md animated" data-animate="fadeInUp" data-delay="0">Don't miss out, Stay updated</h4>
-					<form id="subscribe-form" action="https://network.us17.list-manage.com/subscribe/post?u=407b15925ff3528bb5cc1c264&id=d43e7239ab" method="post" class="subscription-form inline-form" novalidate="novalidate">
+					<form action="https://network.us17.list-manage.com/subscribe/post?u=407b15925ff3528bb5cc1c264&id=d43e7239ab" method="post" class="subscription-form inline-form" novalidate="novalidate">
 						<input type="text" name="EMAIL" class="input-round required email" placeholder="Enter your email address" >
 						<input type="text" class="d-none" name="form-anti-honeypot" value="">
 						<button type="submit" class="btn btn-plane">Subscribe</button>
@@ -2057,6 +2033,14 @@ asset trading.</p><p>Bundle Network aims to provide support for the burgeoning a
    		<div class="loader-section loader-bottom"></div>
 	</div>
 	<!-- Preloader End -->
+
+  <!-- jQuery FIRST i.e. before qTip (and all other scripts too usually) -->
+  <script type="text/javascript" src="bundleassets/js/jquery-3.3.1.min.js"></script>
+
+  <!-- Optional: imagesLoaded script to better support images inside your tooltips -->
+  <script type="text/javascript" src="bundleassets/js/imagesloaded.pkgd.min.js"></script>
+
+  <script>$(document).ready(function() {$('.nav-tabs a[href="#tabtokensale"]').tab('show');});</script>
 
 	<!-- JavaScript (include all script here) -->
 	<script src="assets/js/jquery.bundle.js?ver=111"></script>
